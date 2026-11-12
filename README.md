@@ -5,7 +5,7 @@
 > GitHub 用户：<https://github.com/flairamos>（FlairAmos，已确认存在）  
 > 个人主页：<https://flairamos.github.io/>（已在线，本项目不会覆盖它）  
 > 目标仓库：<https://github.com/flairamos/container-hub>（已创建，Public）  
-> 在线地址（部署后）：<https://flairamos.github.io/container-hub/>
+> 在线地址（已上线）：<https://flairamos.github.io/container-hub/>
 
 > 本项目默认部署为**独立项目站** `/container-hub/`，不会覆盖你现有的 `flairamos.github.io` 个人主页。
 
@@ -52,10 +52,10 @@ npm run crawl
    git push -u origin main
    ```
 
-3. 仓库 **Settings → Pages → Build and deployment**：
-   - Source 选 **Deploy from a branch**
-   - Branch 选 **main**，目录选 **/ (root)**
-   - 保存后等待 1–2 分钟，访问 `https://flairamos.github.io/container-hub/`。
+3. 仓库 **Settings → Pages → Build and deployment**（已配置完成）：
+   - Source：**Deploy from a branch**
+   - Branch：**main**，目录：**/ (root)**
+   - 站点：`https://flairamos.github.io/container-hub/`
 
 4. 如果仓库名不是 `container-hub`（例如你直接用 `flairamos.github.io`），修改这两处：
    - `scripts/config.mjs` 里的 `SITE.repo` 和 `SITE.pages`
@@ -70,7 +70,7 @@ npm run crawl
 
 - 定时：`23 3 * * *`（UTC），对应北京时间 11:23，避开 GitHub 整点高峰。
 - 手动：仓库 **Actions → Daily AI Sites Crawl → Run workflow**。
-- 首次建议先手动跑一次，确认能 commit 后再等定时任务。
+- 部署后已手动触发一次，用来验证抓取 → 提交 → Pages 重建链路。
 
 ### 可选：启用 LLM 分类
 
