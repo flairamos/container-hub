@@ -2,12 +2,8 @@
 
 一个部署在 GitHub Pages 上的 AI 网站导航：**每天自动抓取新站 → 去重 → 自动分类 → 更新 `data/data.json`**，页面按附件里的卡片网格展示。
 
-> GitHub 用户：<https://github.com/flairamos>（FlairAmos，已确认存在）  
-> 个人主页：<https://flairamos.github.io/>（已在线，本项目不会覆盖它）  
-> 目标仓库：<https://github.com/flairamos/container-hub>（已创建，Public）  
-> 在线地址（已上线）：<https://flairamos.github.io/container-hub/>
-
-> 本项目默认部署为**独立项目站** `/container-hub/`，不会覆盖你现有的 `flairamos.github.io` 个人主页。
+> 仓库地址：<https://github.com/flairamos/container-hub>  
+> 在线地址：<https://flairamos.github.io/container-hub/>
 
 ![首页预览](docs/preview.png)
 
@@ -45,14 +41,14 @@ npm run crawl
 
 ## 部署到 GitHub Pages
 
-1. 目标仓库已创建：`https://github.com/flairamos/container-hub`（Public）。
-2. 本地已关联 `origin`，并已把远端初始的 `LICENSE` 合并进来，直接推送：
+1. 仓库：`https://github.com/flairamos/container-hub`。
+2. 推送 `main`：
 
    ```bash
    git push -u origin main
    ```
 
-3. 仓库 **Settings → Pages → Build and deployment**（已配置完成）：
+3. 仓库 **Settings → Pages → Build and deployment**：
    - Source：**Deploy from a branch**
    - Branch：**main**，目录：**/ (root)**
    - 站点：`https://flairamos.github.io/container-hub/`
@@ -70,7 +66,7 @@ npm run crawl
 
 - 定时：`23 3 * * *`（UTC），对应北京时间 11:23，避开 GitHub 整点高峰。
 - 手动：仓库 **Actions → Daily AI Sites Crawl → Run workflow**。
-- 部署后已手动触发一次，用来验证抓取 → 提交 → Pages 重建链路。
+- 首次部署后建议手动触发一次，确认抓取 → 提交 → Pages 重建链路正常。
 
 ### 可选：启用 LLM 分类
 
