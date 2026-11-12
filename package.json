@@ -1,0 +1,16 @@
+{
+  "name": "container-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "每日自动更新的 AI 网站导航，部署于 GitHub Pages。",
+  "scripts": {
+    "crawl": "node scripts/main.mjs",
+    "crawl:fast": "node scripts/main.mjs --skip-ping",
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

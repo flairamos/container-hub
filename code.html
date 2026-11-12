@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 网站自动收录与分类导航 — 实施手册</title>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; max-width: 920px; margin: 0 auto; padding: 2rem 1.5rem 4rem; line-height: 1.7; color: #24292f; }
+  h1 { border-bottom: 3px solid #0969da; padding-bottom: .5rem; }
+  h2 { border-bottom: 1px solid #d0d7de; padding-bottom: .4rem; margin-top: 3rem; }
+  h3 { margin-top: 2rem; }
+  pre { background: #0d1117; color: #e6edf3; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: .875rem; line-height: 1.5; }
+  code { font-family: ui-monospace, Consolas, monospace; }
+  p code, li code, td code { background: #eff1f3; padding: 2px 6px; border-radius: 4px; font-size: .875em; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .9rem; }
+  th, td { border: 1px solid #d0d7de; padding: .5rem .75rem; text-align: left; vertical-align: top; }
+  th { background: #f6f8fa; }
+  blockquote { border-left: 4px solid #0969da; margin: 1rem 0; padding: .5rem 1rem; background: #f6f8fa; }
+  .toolbar { position: sticky; top: 0; background: #fff; padding: .75rem 0; border-bottom: 1px solid #d0d7de; z-index: 10; margin-bottom: 2rem; }
+  .toolbar button { background: #0969da; color: #fff; border: 0; padding: .5rem 1rem; border-radius: 6px; cursor: pointer; margin-right: .5rem; font-size: .875rem; }
+  .toolbar button:hover { background: #0550ae; }
+  nav { background: #f6f8fa; padding: 1rem 1.25rem; border-radius: 8px; margin-bottom: 2rem; }
+  nav a { color: #0969da; text-decoration: none; }
+  .tag { display: inline-block; background: #ddf4ff; color: #0969da; padding: 1px 8px; border-radius: 10px; font-size: .8em; margin-right: 4px; }
+  @media print { .toolbar { display: none; } }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <button onclick="downloadFile()">⬇ 下载此文档</button>
+  <button onclick="window.print()">🖨 打印 / 存为 PDF</button>
+</div>
+
+<h1>AI 网站自动收录与分类导航 — 完整实施手册</h1>
+<blockquote>目标：搭建一个部署在 GitHub Pages 上的 AI 站点导航，每日通过 GitHub Actions 自动抓取新站、自动分类、自动更新静态数据，无需人工维护。月成本 &lt; ¥10。</blockquote>
+
+<nav>
+  <strong>目录</strong><br>
+  <a href="#s1">1. 整体架构</a> ·
+  <a href="#s2">2. 信息源清单</a> ·
+  <a href="#s3">3. 分类体系</a> ·
+  <a href="#s4">4. 分类逻辑</a> ·
+  <a href="#s5">5. 爬虫脚本</a> ·
+  <a href="#s6">6. Actions 工作流</a> ·
+  <a href="#s7">7. 前端展示</a> ·
+  <a href="#s8">8. 避坑清单</a> ·
+  <a href="#s9">9. 快速上手</a> ·
+  <a href="#a1">附录 A-C</a>
+</nav>
+
+<h2 id="s1">1. 整体架构</h2>
+<pre>┌─ GitHub Actions (cron 每日触发)
+│    ↓
+├─ checkout 仓库
+│    ↓
+├─ 运行 Node 爬虫 (axios + cheerio)
+│    ├─ models.dev API
+│    ├─ awesome-* 清单
+│    ├─ HN Algolia API
+│    ├─ Product Hunt RSS
+│    └─ 目录站 HTML 抓取
+│    ↓
+├─ 去重 → 规则分类 → LLM 兜底 → 打分
+│    ↓
+├─ 生成 data/data.json
+│    ↓
+├─ git commit + push
+│    ↓
+└─ GitHub Pages 自动重新部署
+        ↓
+   浏览器 fetch('./data/data.json') 渲染</pre>
+
+<p><strong>核心原则：</strong></p>
+<ul>
+  <li>Pages 只负责静态托管，"更新"的本质是让 Actions 把新 data.json commit 进仓库</li>
+  <li>浏览器 JS 不能爬虫（同源策略），真正干活的是 Actions 云端容器里的 Node.js</li>
+  <li>90% 站点用域名关键词即可分类，仅冷门站走 LLM 兜底，节省 token 开销</li>
+</ul>
+
+<h2 id="s2">2. 信息源清单</h2>
+<p>按结构化程度排序，越靠前越推荐：</p>
+<table>
+  <tr><th>信息源</th><th>地址 / 接口</th><th>获取方式</th><th>适合抓取内容</th></tr>
+  <tr><td><strong>models.dev</strong></td><td><code>https://models.dev/api.json</code></td><td>免费 JSON API，无需 key</td><td><strong>AI 模型供应商 / token 网关</strong>最佳数据源，OpenCode 官方在用</td></tr>
+  <tr><td><strong>awesome-free-llm-apis</strong></td><td><code>github.com/mnfst/awesome-free-llm-apis</code></td><td>raw README</td><td>永久/限时免费 LLM API 清单，含 Base URL 与额度</td></tr>
+  <tr><td><strong>awesome-ai-tools</strong></td><td>GitCode 镜像仓库</td><td>raw README</td><td>文本/代码/图像/视频分类 AI 工具</td></tr>
+  <tr><td><strong>awesome-github-projects</strong></td><td>GitHub</td><td>raw README</td><td>4872 个仓库，AI &amp; ML 分类 716 个，含 star 数</td></tr>
+  <tr><td><strong>awesome-claude-code</strong></td><td>GitHub</td><td>raw README</td><td>Claude Code / Codex / Cursor 生态工具、MCP、Skill</td></tr>
+  <tr><td><strong>HN Algolia API</strong></td><td><code>hn.algolia.com/api/v1/search_by_date?query=AI+tool&amp;tags=story</code></td><td>免费 REST，无鉴权</td><td>新发布 AI 工具讨论，发现新站的雷达</td></tr>
+  <tr><td><strong>Product Hunt RSS</strong></td><td><code>producthunt.com/feed?category=ai</code></td><td>Atom RSS，无需 key</td><td>当日新发布 AI 产品</td></tr>
+  <tr><td><strong>Futurepedia / Toolify / TAAFT</strong></td><td>站点页面</td><td>HTML 抓取（注意反爬）</td><td>2500+ 工具按 70+ 分类的大目录</td></tr>
+  <tr><td><strong>TechCrunch / VentureBeat</strong></td><td><code>techcrunch.com/category/artificial-intelligence/feed/</code></td><td>RSS</td><td>AI 行业新闻，发现新模型/新公司</td></tr>
+  <tr><td><strong>pricepertoken / benchlm</strong></td><td>站点页面</td><td>HTML 抓取</td><td>LLM API 价格对比，做订阅 token 类目校准</td></tr>
+</table>
+
+<p><strong>种子站点</strong>（手工录入起步）：</p>
+<pre>opencode.ai          # AI 编码 CLI
+commandcode.ai       # AI 编码 CLI
+deepseek.com         # 模型供应商
+openrouter.ai        # token 订阅网关
+siliconflow.cn       # token 订阅网关
+bailian.console.aliyun.com
+claude.ai
+cursor.com</pre>
+
+<h2 id="s3">3. 分类体系</h2>
+<p>按使用场景切 7 类，不要追求"万能分类"：</p>
+<pre>categories:
+  - id: coding-agent
+    name: AI 编码智能体 / CLI
+    examples: [opencode.ai, commandcode.ai, claude.ai/claude-code, cursor.com]
+
+  - id: llm-provider
+    name: 大模型供应商官网
+    examples: [deepseek.com, openai.com, anthropic.com, google.ai]
+
+  - id: token-gateway
+    name: Token 订阅 / API 网关
+    examples: [openrouter.ai, siliconflow.cn, bailian.console.aliyun.com]
+
+  - id: free-api
+    name: 免费 / 试用 LLM API
+    examples: [groq.com]
+
+  - id: ai-directory
+    name: AI 工具导航目录
+    examples: [futurepedia.io, toolify.ai, theresanaiforthat.com]
+
+  - id: agent-framework
+    name: Agent / MCP 框架
+    examples: [langchain.com, crewai.com, mcp.so]
+
+  - id: learning
+    name: 教程与 awesome 清单</pre>
+
+<h2 id="s4">4. 分类逻辑实现</h2>
+<p>三级分类：<strong>域名白名单 → 关键词规则 → LLM 兜底</strong></p>
+<pre>// scripts/classifier.mjs
+const RULES = [
+  { cat: 'coding-agent',    any: ['claude-code', 'cli', 'terminal', 'coding-agent', 'code-assistant', 'opencode', 'commandcode'] },
+  { cat: 'token-gateway',   any: ['api-key', 'token', 'pricing', 'billing', 'gateway', 'inference', 'credits'] },
+  { cat: 'llm-provider',    any: ['llm', 'gpt', 'claude', 'deepseek', 'qwen', 'kimi', 'minimax'] },
+  { cat: 'free-api',        any: ['free-tier', 'free-llm', 'free-api'] },
+  { cat: 'ai-directory',    any: ['directory', 'tools-list', 'awesome-', 'navigate', 'catalog'] },
+  { cat: 'agent-framework', any: ['agent', 'mcp', 'framework', 'orchestration'] },
+];
+
+export function ruleClassify(item) {
+  const text = `${item.url} ${item.title} ${item.description}`.toLowerCase();
+  const hits = RULES.filter(r =&gt; r.any.some(kw =&gt; text.includes(kw)));
+  return hits.length ? hits[0].cat : null;
+}
+
+export async function llmClassify(item, CATEGORIES) {
+  const prompt = `请把下面这个网站归到唯一一个分类里，只输出分类 ID。
+分类选项：${CATEGORIES.map(c =&gt; `${c.id} (${c.name})`).join(', ')}
+网站：${item.url}
+标题：${item.title}
+描述：${item.description}
+只输出分类 ID，不要解释。`;
+
+  const res = await fetch('https://api.deepseek.com/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${process.env.DEEPSEEK_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: 'deepseek-chat',
+      messages: [{ role: 'user', content: prompt }],
+      max_tokens: 20,
+    }),
+  });
+  const data = await res.json();
+  return data.choices[0].message.content.trim();
+}
+
+export async function classify(item, CATEGORIES) {
+  return ruleClassify(item) ?? await llmClassify(item, CATEGORIES);
+}</pre>
+
+<p><strong>成本参考：</strong>DeepSeek-Chat 单次分类调用 &lt; 1 分钱，每日兜底消耗 &lt; 1 元。</p>
+<p><strong>必须做 LLM 结果缓存：</strong>以 URL 哈希为 key 存到本地 JSON，避免每日重复调用。</p>
+
+<h2 id="s5">5. 爬虫脚本</h2>
+
+<h3>5.1 基础爬虫模板</h3>
+<pre>// scripts/crawler.mjs
+import axios from 'axios';
+import * as cheerio from 'cheerio';
+import { writeFile } from 'node:fs/promises';
+
+const SITES = [
+  'https://opencode.ai',
+  'https://openrouter.ai',
+  'https://deepseek.com',
+];
+
+const results = [];
+for (const url of SITES) {
+  try {
+    const { data: html } = await axios.get(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AISitesBot/1.0)' },
+      timeout: 10000,
+    });
+    const $ = cheerio.load(html);
+    const title = $('title').text().trim();
+    const description = $('meta[name="description"]').attr('content') || '';
+    results.push({ url, title, description, fetchedAt: new Date().toISOString() });
+    await new Promise(r =&gt; setTimeout(r, 1000)); // 礼貌性延迟
+  } catch (e) {
+    console.warn(`跳过 ${url}: ${e.message}`);
+    // 单源失败不影响整体，继续下一个
+  }
+}
+
+await writeFile('./data/raw.json', JSON.stringify(results, null, 2));</pre>
+
+<h3>5.2 数据结构（统一输出格式）</h3>
+<pre>{
+  "url": "https://opencode.ai",
+  "title": "OpenCode - AI Coding Agent",
+  "description": "Terminal-based AI coding agent",
+  "category": "coding-agent",
+  "score": 8.5,
+  "firstSeenAt": "2026-01-01T00:00:00Z",
+  "lastSeenAt": "2026-11-12T00:00:00Z",
+  "source": ["models.dev", "hn"],
+  "stars": 12345,
+  "status": "online"
+}</pre>
+
+<h3>5.3 去重规则</h3>
+<pre>function normalizeUrl(u) {
+  const url = new URL(u);
+  url.hostname = url.hostname.replace(/^www\./, '');
+  url.search = '';      // 去掉 query
+  url.hash = '';        // 去掉 hash
+  let s = url.toString();
+  if (s.endsWith('/')) s = s.slice(0, -1);
+  return s;
+}</pre>
+<p>同一站点被多个源收录时合并，出现次数累加为 <code>score</code> 的一部分。</p>
+
+<h2 id="s6">6. GitHub Actions 工作流</h2>
+<p>保存为 <code>.github/workflows/crawl.yml</code>：</p>
+<pre>name: Daily AI Sites Crawl
+
+on:
+  schedule:
+    - cron: '23 3 * * *'   # 每天 UTC 3:23（北京时间 11:23），避开整点高峰
+  workflow_dispatch:        # 允许手动触发调试
+
+permissions:
+  contents: write           # 必须，否则 git push 会 403
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install
+
+      - run: node scripts/main.mjs
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+      - name: Commit &amp; Push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "chore: refresh AI sites $(date -u +%F)"
+          git push</pre>
+
+<p><strong>Secrets 配置：</strong>仓库 <code>Settings → Secrets and variables → Actions → New repository secret</code>，添加 <code>DEEPSEEK_API_KEY</code>。</p>
+
+<h2 id="s7">7. 前端展示</h2>
+
+<h3>7.1 index.html 核心逻辑</h3>
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html lang="zh"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;AI Sites Navigator&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: -apple-system, sans-serif; max-width: 1200px; margin: 0 auto; padding: 2rem; }
+    .card { border: 1px solid #e2e2e2; border-radius: 8px; padding: 1rem; margin: .5rem; display: inline-block; width: 300px; vertical-align: top; }
+    .tag { background: #eef; padding: 2px 8px; border-radius: 4px; font-size: .8em; }
+    .offline { opacity: .5; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;AI 站点导航&lt;/h1&gt;
+  &lt;input id="search" placeholder="搜索..." oninput="render()" style="width:300px;padding:8px;"&gt;
+  &lt;div id="list"&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    let sites = [];
+    fetch('./data/data.json').then(r =&gt; r.json()).then(d =&gt; { sites = d; render(); });
+
+    function render() {
+      const q = document.getElementById('search').value.toLowerCase();
+      const filtered = sites.filter(s =&gt;
+        !q || s.title?.toLowerCase().includes(q) || s.description?.toLowerCase().includes(q)
+      );
+      const grouped = {};
+      filtered.forEach(s =&gt; {
+        (grouped[s.category] ||= []).push(s);
+      });
+
+      document.getElementById('list').innerHTML = Object.entries(grouped).map(([cat, items]) =&gt; `
+        &lt;h2&gt;${cat}&lt;/h2&gt;
+        ${items.map(s =&gt; `
+          &lt;div class="card ${s.status === 'offline' ? 'offline' : ''}"&gt;
+            &lt;a href="${s.url}" target="_blank"&gt;${s.title || s.url}&lt;/a&gt;
+            &lt;p&gt;${s.description || ''}&lt;/p&gt;
+            &lt;span class="tag"&gt;${s.category}&lt;/span&gt;
+            &lt;span style="float:right;font-size:.8em;color:#999"&gt;${s.lastSeenAt?.slice(0,10)}&lt;/span&gt;
+          &lt;/div&gt;
+        `).join('')}
+      `).join('');
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+<h3>7.2 推荐功能</h3>
+<ul>
+  <li>搜索框：按标题/描述过滤</li>
+  <li>Trending 区：显示最近 7 天新增或 score 上升的站点</li>
+  <li>分类筛选 tab</li>
+  <li>站点截图占位（可选，用 <code>api.microlink.io/?url=xxx&amp;screenshot</code> 之类服务）</li>
+  <li>"信息较旧"标注：<code>lastSeenAt</code> 距今超过 90 天的显示灰色提示</li>
+</ul>
+
+<h2 id="s8">8. 避坑清单</h2>
+<table>
+  <tr><th>#</th><th>坑</th><th>规避方式</th></tr>
+  <tr><td>1</td><td>cron 整点触发延迟甚至丢失</td><td>写成 <code>23 3 * * *</code> 这类"零散分钟"</td></tr>
+  <tr><td>2</td><td>60 天无仓库活动定时任务被静默停用</td><td>每日 commit 天然算活动；若源全挂无 commit，偶尔手动跑一次</td></tr>
+  <tr><td>3</td><td>GITHUB_TOKEN 推 commit 不触发其他 workflow</td><td>Pages 用 "Deploy from a branch" 模式不受影响；如需链式触发用 <code>workflow_call</code></td></tr>
+  <tr><td>4</td><td>push 报 403</td><td>workflow 里加 <code>permissions: contents: write</code></td></tr>
+  <tr><td>5</td><td>单个源挂掉导致整个 job 失败</td><td>每个 source 用 try/catch 包裹，失败记日志继续下一个</td></tr>
+  <tr><td>6</td><td>LLM 分类重复调用浪费 token</td><td>按 URL 哈希做本地缓存</td></tr>
+  <tr><td>7</td><td>爬目录站被反爬</td><td>加 User-Agent + 每请求 sleep 1 秒 + 重试上限；改抓 sitemap.xml</td></tr>
+  <tr><td>8</td><td>同一站点被多源重复收录</td><td>URL 规范化后合并，出现次数累加为热度权重</td></tr>
+  <tr><td>9</td><td>站点下线后还留在页面上</td><td>每日 ping 所有 URL，连续 7 天 404 标 <code>offline</code>，不要直接删</td></tr>
+  <tr><td>10</td><td>版权风险</td><td>只存元数据（标题+链接+描述），不搬运正文；遵守 robots.txt</td></tr>
+  <tr><td>11</td><td>私有仓库 Actions 超额</td><td>公共仓库免费无上限；私有仓库月 2000 分钟足够每日 1 次</td></tr>
+</table>
+
+<h2 id="s9">9. 快速上手步骤</h2>
+
+<h3>Day 1：跑通基础链路</h3>
+<ol>
+  <li>创建 GitHub 仓库（Public），本地 <code>git clone</code></li>
+  <li>建目录结构：
+<pre>├── .github/workflows/crawl.yml
+├── scripts/
+│   ├── crawler.mjs
+│   ├── classifier.mjs
+│   └── main.mjs
+├── data/
+├── index.html
+└── package.json</pre></li>
+  <li><code>package.json</code> 依赖：
+<pre>{
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.x",
+    "cheerio": "^1.x"
+  }
+}</pre></li>
+  <li>在 workflow 里先注释掉 <code>schedule</code>，保留 <code>workflow_dispatch</code></li>
+  <li>手动触发 Actions → 观察是否成功 commit → 看 Pages 是否部署</li>
+</ol>
+
+<h3>Day 2：接入信息源</h3>
+<ul>
+  <li>按第 2 节表格，每接一个源就跑一次，观察 data/raw.json 输出是否符合预期</li>
+  <li>先接 models.dev（最容易）→ HN Algolia → awesome 清单 → RSS → HTML 目录</li>
+</ul>
+
+<h3>Day 3：启用定时</h3>
+<ul>
+  <li>确认手动跑稳定后，打开 <code>schedule.cron</code></li>
+  <li>观察一周，如有延迟属正常（官方说明高峰期可能延迟）</li>
+</ul>
+
+<h3>Day 4+：迭代</h3>
+<ul>
+  <li>加搜索/筛选/截图</li>
+  <li>加 Trending / 评分</li>
+  <li>加更多源</li>
+</ul>
+
+<h2 id="a1">附录 A：成本估算</h2>
+<table>
+  <tr><th>项目</th><th>月成本</th></tr>
+  <tr><td>GitHub Pages + Actions（公共仓库）</td><td>¥0</td></tr>
+  <tr><td>DeepSeek 分类 API（每日 ~20 次兜底）</td><td>&lt; ¥5</td></tr>
+  <tr><td>域名（可选）</td><td>¥60/年</td></tr>
+  <tr><td><strong>合计</strong></td><td><strong>&lt; ¥10/月</strong></td></tr>
+</table>
+
+<h2>附录 B：参考开源项目</h2>
+<ul>
+  <li><code>mnfst/awesome-free-llm-apis</code> — 免费 LLM API 清单</li>
+  <li><code>models.dev</code> — 模型元数据 API</li>
+  <li><code>lingxcom/jt808</code> — 多版本协议兼容参考（如果你做工具站）</li>
+</ul>
+
+<h2>附录 C：法律与礼仪提醒</h2>
+<ul>
+  <li>优先用官方 API / RSS，不要硬爬 HTML</li>
+  <li>遵守目标站点 <code>robots.txt</code></li>
+  <li>控制请求频率（≥1 秒/次），不要把小站打挂</li>
+  <li>不爬明确禁止自动化的站点</li>
+  <li>公共仓库代码所有人可见，注意合规留痕</li>
+  <li>只存元数据，避免版权争议</li>
+</ul>
+
+<script>
+function downloadFile() {
+  const html = document.documentElement.outerHTML;
+  const blob = new Blob(['<!DOCTYPE html>\n' + html], { type: 'text/html;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'ai-sites-guide.html';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+</script>
+
+</body>
+</html>
