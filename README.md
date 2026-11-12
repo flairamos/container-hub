@@ -3,8 +3,8 @@
 一个部署在 GitHub Pages 上的 AI 网站导航：**每天自动抓取新站 → 去重 → 自动分类 → 更新 `data/data.json`**，页面按附件里的卡片网格展示。
 
 > GitHub 用户：<https://github.com/flairamos>（FlairAmos，已确认存在）  
-> 个人主页：<https://flairamos.github.io/>（已在线）  
-> 目标仓库：<https://github.com/flairamos/container-hub>（公开访问返回 404，可能尚未创建或为私有）  
+> 个人主页：<https://flairamos.github.io/>（已在线，本项目不会覆盖它）  
+> 目标仓库：<https://github.com/flairamos/container-hub>（已创建，Public）  
 > 在线地址（部署后）：<https://flairamos.github.io/container-hub/>
 
 > 本项目默认部署为**独立项目站** `/container-hub/`，不会覆盖你现有的 `flairamos.github.io` 个人主页。
@@ -45,11 +45,10 @@ npm run crawl
 
 ## 部署到 GitHub Pages
 
-1. 在 `flairamos` 账号下新建一个 **Public** 仓库，名称填 `container-hub`。
-2. 本地目录已经初始化并提交过，直接关联远端并推送：
+1. 目标仓库已创建：`https://github.com/flairamos/container-hub`（Public）。
+2. 本地已关联 `origin`，并已把远端初始的 `LICENSE` 合并进来，直接推送：
 
    ```bash
-   git remote add origin https://github.com/flairamos/container-hub.git
    git push -u origin main
    ```
 
@@ -225,4 +224,4 @@ node scripts/main.mjs --no-icons              # 不下载图标
 
 ## License
 
-仅用于个人学习与站点导航；收录内容版权归各站点所有。
+本项目代码以 [MIT License](LICENSE) 发布；收录站点的标题、描述、图标等版权归各站点所有。
