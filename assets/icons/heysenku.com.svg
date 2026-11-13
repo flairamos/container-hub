@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#49a99a"/><stop offset=".54" stop-color="#54c0ae"/><stop offset=".84" stop-color="#70ddc8"/><stop offset="1" stop-color="#b0f8e7"/>
+    </linearGradient>
+    <radialGradient id="inner" gradientUnits="userSpaceOnUse" cx="40" cy="55" r="48">
+      <stop stop-color="#effffb" stop-opacity=".86"/><stop offset=".26" stop-color="#a9f5e8" stop-opacity=".69"/><stop offset=".55" stop-color="#43b9aa" stop-opacity=".27"/><stop offset=".9" stop-color="#43b9aa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lower" gradientUnits="userSpaceOnUse" cx="40" cy="66" r="28">
+      <stop stop-color="#effffb" stop-opacity=".8"/><stop offset=".42" stop-color="#effffb" stop-opacity=".41"/><stop offset="1" stop-color="#effffb" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="40" cy="40" r="35" fill="url(#body)"/>
+  <circle cx="40" cy="40" r="35" fill="url(#inner)"/>
+  <circle cx="40" cy="40" r="35" fill="url(#lower)"/>
+  <g fill="#fff" fill-opacity=".973"><rect x="28" y="34" width="5" height="7" rx="1.5"/><rect x="47" y="34" width="5" height="7" rx="1.5"/></g>
+</svg>
