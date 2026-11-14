@@ -1,0 +1,5 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>Anvil</title>
+  <rect width="512" height="512" rx="112" fill="#0A0A0A"/>
+  <path d="M256 120 L392 400 L322 400 L256 268 L190 400 L120 400 Z" fill="#FFFFFF"/>
+</svg>
