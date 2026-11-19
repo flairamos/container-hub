@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T11:55:30.377Z",
-  "updatedAt": "2026-11-18T11:55:30.377Z",
+  "generatedAt": "2026-11-19T11:52:48.649Z",
+  "updatedAt": "2026-11-19T11:52:48.649Z",
   "site": {
     "name": "Container Hub",
     "title": "AI 工具导航",
@@ -14,14 +14,14 @@
       "name": "AI 编码智能体",
       "emoji": "⌨️",
       "description": "终端 / IDE 里的 AI 程序员",
-      "count": 36
+      "count": 37
     },
     {
       "id": "llm-provider",
       "name": "大模型供应商",
       "emoji": "🧠",
       "description": "模型官方与 API 入口",
-      "count": 130
+      "count": 121
     },
     {
       "id": "token-gateway",
@@ -35,14 +35,14 @@
       "name": "Agent / MCP 框架",
       "emoji": "🧩",
       "description": "构建智能体与工具生态",
-      "count": 75
+      "count": 81
     },
     {
       "id": "ai-media",
       "name": "图像 / 视频 / 设计",
       "emoji": "🎨",
       "description": "生成图片、视频与设计稿",
-      "count": 24
+      "count": 26
     },
     {
       "id": "ai-writing",
@@ -77,34 +77,34 @@
       "name": "教程与清单",
       "emoji": "📚",
       "description": "awesome 清单与学习资源",
-      "count": 9
+      "count": 8
     },
     {
       "id": "ai-tool",
       "name": "综合 AI 工具",
       "emoji": "✨",
       "description": "通用对话与多场景助手",
-      "count": 77
+      "count": 78
     }
   ],
   "stats": {
     "total": 400,
     "online": 400,
-    "newThisWeek": 34,
+    "newThisWeek": 31,
     "categories": {
-      "coding-agent": 36,
-      "llm-provider": 130,
+      "coding-agent": 37,
+      "llm-provider": 121,
       "token-gateway": 11,
-      "agent-framework": 75,
-      "ai-media": 24,
+      "agent-framework": 81,
+      "ai-media": 26,
       "ai-writing": 11,
       "ai-productivity": 17,
       "ai-directory": 6,
       "free-api": 4,
-      "learning": 9,
-      "ai-tool": 77
+      "learning": 8,
+      "ai-tool": 78
     },
-    "checkedAt": "2026-11-18T11:55:30.377Z"
+    "checkedAt": "2026-11-19T11:52:48.649Z"
   },
   "popular": [
     "host:opencode.ai",
@@ -143,7 +143,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.491Z",
+      "lastSeenAt": "2026-11-19T11:53:06.621Z",
       "status": "online",
       "failures": 0
     },
@@ -168,7 +168,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.567Z",
+      "lastSeenAt": "2026-11-19T11:53:06.708Z",
       "status": "online",
       "failures": 0
     },
@@ -194,7 +194,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.519Z",
+      "lastSeenAt": "2026-11-19T11:53:06.711Z",
       "status": "online",
       "failures": 0
     },
@@ -220,7 +220,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.539Z",
+      "lastSeenAt": "2026-11-19T11:53:06.838Z",
       "status": "online",
       "failures": 0
     },
@@ -246,7 +246,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.518Z",
+      "lastSeenAt": "2026-11-19T11:53:06.712Z",
       "status": "online",
       "failures": 0
     },
@@ -270,7 +270,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.627Z",
+      "lastSeenAt": "2026-11-19T11:53:06.779Z",
       "status": "online",
       "failures": 0
     },
@@ -295,7 +295,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.734Z",
+      "lastSeenAt": "2026-11-19T11:53:06.909Z",
       "status": "online",
       "failures": 0
     },
@@ -321,7 +321,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.561Z",
+      "lastSeenAt": "2026-11-19T11:53:06.694Z",
       "status": "online",
       "failures": 0
     },
@@ -345,7 +345,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.563Z",
+      "lastSeenAt": "2026-11-19T11:53:06.753Z",
       "status": "online",
       "failures": 0
     },
@@ -372,7 +372,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T07:34:10Z",
-      "lastSeenAt": "2026-11-18T11:55:50.544Z",
+      "lastSeenAt": "2026-11-19T11:53:06.787Z",
       "status": "online",
       "failures": 0
     },
@@ -397,7 +397,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:51.664Z",
+      "lastSeenAt": "2026-11-19T11:53:08.739Z",
       "status": "online",
       "failures": 0
     },
@@ -421,7 +421,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:51.667Z",
+      "lastSeenAt": "2026-11-19T11:53:07.995Z",
       "status": "online",
       "failures": 0
     },
@@ -446,7 +446,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.841Z",
+      "lastSeenAt": "2026-11-19T11:53:07.158Z",
       "status": "online",
       "failures": 0
     },
@@ -470,7 +470,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.854Z",
+      "lastSeenAt": "2026-11-19T11:53:07.592Z",
       "status": "online",
       "failures": 0
     },
@@ -494,10 +494,10 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-18T11:55:30.377Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
-      "failures": 1,
-      "lastCheckedAt": "2026-11-18T11:55:51.169Z"
+      "failures": 2,
+      "lastCheckedAt": "2026-11-19T11:53:07.874Z"
     },
     {
       "id": "github:features/copilot",
@@ -519,7 +519,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:51.116Z",
+      "lastSeenAt": "2026-11-19T11:53:06.822Z",
       "status": "online",
       "failures": 0
     },
@@ -544,7 +544,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.857Z",
+      "lastSeenAt": "2026-11-19T11:53:07.238Z",
       "status": "online",
       "failures": 0
     },
@@ -568,7 +568,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:52.826Z",
+      "lastSeenAt": "2026-11-19T11:53:10.114Z",
       "status": "online",
       "failures": 0
     },
@@ -592,7 +592,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:50.945Z",
+      "lastSeenAt": "2026-11-19T11:53:07.534Z",
       "status": "online",
       "failures": 0
     },
@@ -617,7 +617,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:52.443Z",
+      "lastSeenAt": "2026-11-19T11:53:08.582Z",
       "status": "online",
       "failures": 0
     },
@@ -642,7 +642,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:51.684Z",
+      "lastSeenAt": "2026-11-19T11:53:08.953Z",
       "status": "online",
       "failures": 0
     },
@@ -666,7 +666,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:51.158Z",
+      "lastSeenAt": "2026-11-19T11:53:07.989Z",
       "status": "online",
       "failures": 0
     },
@@ -690,7 +690,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:54.058Z",
+      "lastSeenAt": "2026-11-19T11:53:10.872Z",
       "status": "online",
       "failures": 0
     },
@@ -714,7 +714,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:54.367Z",
+      "lastSeenAt": "2026-11-19T11:53:09.374Z",
       "status": "online",
       "failures": 0
     },
@@ -739,7 +739,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:51.552Z",
+      "lastSeenAt": "2026-11-19T11:53:08.774Z",
       "status": "online",
       "failures": 0
     },
@@ -764,7 +764,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:51.831Z",
+      "lastSeenAt": "2026-11-19T11:53:08.779Z",
       "status": "online",
       "failures": 0
     },
@@ -789,7 +789,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:52.067Z",
+      "lastSeenAt": "2026-11-19T11:53:09.442Z",
       "status": "online",
       "failures": 0
     },
@@ -814,7 +814,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:31:35.469Z",
-      "lastSeenAt": "2026-11-18T11:55:52.424Z",
+      "lastSeenAt": "2026-11-19T11:53:09.813Z",
       "status": "online",
       "failures": 0
     },
@@ -839,7 +839,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:51.752Z",
+      "lastSeenAt": "2026-11-19T11:53:09.220Z",
       "status": "online",
       "failures": 0
     },
@@ -863,7 +863,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:52.514Z",
+      "lastSeenAt": "2026-11-19T11:53:09.568Z",
       "status": "online",
       "failures": 0
     },
@@ -887,7 +887,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:52.615Z",
+      "lastSeenAt": "2026-11-19T11:53:10.903Z",
       "status": "online",
       "failures": 0
     },
@@ -911,7 +911,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:53.872Z",
+      "lastSeenAt": "2026-11-19T11:53:11.896Z",
       "status": "online",
       "failures": 0
     },
@@ -936,7 +936,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.934Z",
+      "lastSeenAt": "2026-11-19T11:53:12.739Z",
       "status": "online",
       "failures": 0
     },
@@ -961,7 +961,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:53.449Z",
+      "lastSeenAt": "2026-11-19T11:53:11.739Z",
       "status": "online",
       "failures": 0
     },
@@ -985,7 +985,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:52.595Z",
+      "lastSeenAt": "2026-11-19T11:53:10.172Z",
       "status": "online",
       "failures": 0
     },
@@ -1010,7 +1010,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:52.678Z",
+      "lastSeenAt": "2026-11-19T11:53:10.150Z",
       "status": "online",
       "failures": 0
     },
@@ -1035,7 +1035,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:55.793Z",
+      "lastSeenAt": "2026-11-19T11:53:13.915Z",
       "status": "online",
       "failures": 0
     },
@@ -1060,7 +1060,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:53.100Z",
+      "lastSeenAt": "2026-11-19T11:53:10.426Z",
       "status": "online",
       "failures": 0
     },
@@ -1084,7 +1084,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:53.394Z",
+      "lastSeenAt": "2026-11-19T11:53:11.081Z",
       "status": "online",
       "failures": 0
     },
@@ -1108,7 +1108,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:53.433Z",
+      "lastSeenAt": "2026-11-19T11:53:12.151Z",
       "status": "online",
       "failures": 0
     },
@@ -1133,7 +1133,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:54.464Z",
+      "lastSeenAt": "2026-11-19T11:53:12.818Z",
       "status": "online",
       "failures": 0
     },
@@ -1157,7 +1157,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:55.594Z",
+      "lastSeenAt": "2026-11-19T11:53:15.841Z",
       "status": "online",
       "failures": 0
     },
@@ -1182,7 +1182,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:53.724Z",
+      "lastSeenAt": "2026-11-19T11:53:12.008Z",
       "status": "online",
       "failures": 0
     },
@@ -1206,7 +1206,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:53.846Z",
+      "lastSeenAt": "2026-11-19T11:53:12.495Z",
       "status": "online",
       "failures": 0
     },
@@ -1230,7 +1230,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:53.985Z",
+      "lastSeenAt": "2026-11-19T11:53:12.224Z",
       "status": "online",
       "failures": 0
     },
@@ -1254,7 +1254,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:53.982Z",
+      "lastSeenAt": "2026-11-19T11:53:12.323Z",
       "status": "online",
       "failures": 0
     },
@@ -1279,7 +1279,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:31:35.469Z",
-      "lastSeenAt": "2026-11-18T11:55:54.268Z",
+      "lastSeenAt": "2026-11-19T11:53:12.509Z",
       "status": "online",
       "failures": 0
     },
@@ -1303,7 +1303,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.623Z",
+      "lastSeenAt": "2026-11-19T11:53:13.156Z",
       "status": "online",
       "failures": 0
     },
@@ -1327,7 +1327,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:54.697Z",
+      "lastSeenAt": "2026-11-19T11:53:13.302Z",
       "status": "online",
       "failures": 0
     },
@@ -1351,7 +1351,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:54.332Z",
+      "lastSeenAt": "2026-11-19T11:53:12.620Z",
       "status": "online",
       "failures": 0
     },
@@ -1375,7 +1375,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:54.388Z",
+      "lastSeenAt": "2026-11-19T11:53:12.586Z",
       "status": "online",
       "failures": 0
     },
@@ -1399,10 +1399,9 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
+      "lastSeenAt": "2026-11-19T11:53:13.054Z",
       "status": "online",
-      "failures": 1,
-      "lastCheckedAt": "2026-11-18T11:55:54.720Z"
+      "failures": 0
     },
     {
       "id": "host:suno.com",
@@ -1424,7 +1423,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:54.473Z",
+      "lastSeenAt": "2026-11-19T11:53:12.779Z",
       "status": "online",
       "failures": 0
     },
@@ -1448,7 +1447,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.411Z",
+      "lastSeenAt": "2026-11-19T11:53:15.193Z",
       "status": "online",
       "failures": 0
     },
@@ -1472,7 +1471,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:55.815Z",
+      "lastSeenAt": "2026-11-19T11:53:13.924Z",
       "status": "online",
       "failures": 0
     },
@@ -1496,7 +1495,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.791Z",
+      "lastSeenAt": "2026-11-19T11:53:15.156Z",
       "status": "online",
       "failures": 0
     },
@@ -1520,7 +1519,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:58.769Z",
+      "lastSeenAt": "2026-11-19T11:53:19.274Z",
       "status": "online",
       "failures": 0
     },
@@ -1544,7 +1543,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.095Z",
+      "lastSeenAt": "2026-11-19T11:53:14.242Z",
       "status": "online",
       "failures": 0
     },
@@ -1568,7 +1567,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.550Z",
+      "lastSeenAt": "2026-11-19T11:53:14.205Z",
       "status": "online",
       "failures": 0
     },
@@ -1592,7 +1591,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:55.903Z",
+      "lastSeenAt": "2026-11-19T11:53:14.008Z",
       "status": "online",
       "failures": 0
     },
@@ -1617,7 +1616,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.217Z",
+      "lastSeenAt": "2026-11-19T11:53:14.366Z",
       "status": "online",
       "failures": 0
     },
@@ -1641,7 +1640,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.354Z",
+      "lastSeenAt": "2026-11-19T11:53:14.643Z",
       "status": "online",
       "failures": 0
     },
@@ -1666,7 +1665,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.434Z",
+      "lastSeenAt": "2026-11-19T11:53:14.524Z",
       "status": "online",
       "failures": 0
     },
@@ -1690,7 +1689,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.696Z",
+      "lastSeenAt": "2026-11-19T11:53:15.028Z",
       "status": "online",
       "failures": 0
     },
@@ -1714,7 +1713,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.842Z",
+      "lastSeenAt": "2026-11-19T11:53:14.994Z",
       "status": "online",
       "failures": 0
     },
@@ -1738,7 +1737,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.497Z",
+      "lastSeenAt": "2026-11-19T11:53:15.016Z",
       "status": "online",
       "failures": 0
     },
@@ -1762,7 +1761,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.573Z",
+      "lastSeenAt": "2026-11-19T11:53:15.013Z",
       "status": "online",
       "failures": 0
     },
@@ -1786,7 +1785,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.784Z",
+      "lastSeenAt": "2026-11-19T11:53:15.850Z",
       "status": "online",
       "failures": 0
     },
@@ -1810,10 +1809,10 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-18T11:55:30.377Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
-      "failures": 1,
-      "lastCheckedAt": "2026-11-18T11:55:57.814Z"
+      "failures": 2,
+      "lastCheckedAt": "2026-11-19T11:53:16.569Z"
     },
     {
       "id": "host:theresanaiforthat.com",
@@ -1835,7 +1834,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.725Z",
+      "lastSeenAt": "2026-11-19T11:53:15.564Z",
       "status": "online",
       "failures": 0
     },
@@ -1860,7 +1859,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.997Z",
+      "lastSeenAt": "2026-11-19T11:53:15.680Z",
       "status": "online",
       "failures": 0
     },
@@ -1884,7 +1883,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.833Z",
+      "lastSeenAt": "2026-11-19T11:53:15.632Z",
       "status": "online",
       "failures": 0
     },
@@ -1908,7 +1907,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.001Z",
+      "lastSeenAt": "2026-11-19T11:53:15.927Z",
       "status": "online",
       "failures": 0
     },
@@ -1932,7 +1931,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.185Z",
+      "lastSeenAt": "2026-11-19T11:53:16.164Z",
       "status": "online",
       "failures": 0
     },
@@ -1956,7 +1955,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:56.892Z",
+      "lastSeenAt": "2026-11-19T11:53:15.864Z",
       "status": "online",
       "failures": 0
     },
@@ -1981,7 +1980,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.114Z",
+      "lastSeenAt": "2026-11-19T11:53:16.046Z",
       "status": "online",
       "failures": 0
     },
@@ -2005,7 +2004,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.345Z",
+      "lastSeenAt": "2026-11-19T11:53:16.307Z",
       "status": "online",
       "failures": 0
     },
@@ -2029,7 +2028,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.208Z",
+      "lastSeenAt": "2026-11-19T11:53:16.566Z",
       "status": "online",
       "failures": 0
     },
@@ -2053,7 +2052,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.085Z",
+      "lastSeenAt": "2026-11-19T11:53:16.640Z",
       "status": "online",
       "failures": 0
     },
@@ -2077,7 +2076,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.588Z",
+      "lastSeenAt": "2026-11-19T11:53:16.798Z",
       "status": "online",
       "failures": 0
     },
@@ -2101,7 +2100,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.283Z",
+      "lastSeenAt": "2026-11-19T11:53:16.944Z",
       "status": "online",
       "failures": 0
     },
@@ -2125,7 +2124,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.439Z",
+      "lastSeenAt": "2026-11-19T11:53:16.694Z",
       "status": "online",
       "failures": 0
     },
@@ -2149,7 +2148,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.323Z",
+      "lastSeenAt": "2026-11-19T11:53:17.464Z",
       "status": "online",
       "failures": 0
     },
@@ -2174,7 +2173,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:31:35.469Z",
-      "lastSeenAt": "2026-11-18T11:55:57.278Z",
+      "lastSeenAt": "2026-11-19T11:53:16.780Z",
       "status": "online",
       "failures": 0
     },
@@ -2198,7 +2197,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.387Z",
+      "lastSeenAt": "2026-11-19T11:53:16.903Z",
       "status": "online",
       "failures": 0
     },
@@ -2222,7 +2221,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:03.287Z",
+      "lastSeenAt": "2026-11-19T11:53:22.366Z",
       "status": "online",
       "failures": 0
     },
@@ -2246,10 +2245,10 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-18T11:55:30.377Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
-      "failures": 1,
-      "lastCheckedAt": "2026-11-18T11:55:58.338Z"
+      "failures": 2,
+      "lastCheckedAt": "2026-11-19T11:53:18.126Z"
     },
     {
       "id": "host:aihubmix.com",
@@ -2271,7 +2270,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.590Z",
+      "lastSeenAt": "2026-11-19T11:53:17.638Z",
       "status": "online",
       "failures": 0
     },
@@ -2295,7 +2294,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.479Z",
+      "lastSeenAt": "2026-11-19T11:53:17.502Z",
       "status": "online",
       "failures": 0
     },
@@ -2319,10 +2318,10 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-18T11:55:30.377Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
-      "failures": 1,
-      "lastCheckedAt": "2026-11-18T11:55:57.752Z"
+      "failures": 2,
+      "lastCheckedAt": "2026-11-19T11:53:17.749Z"
     },
     {
       "id": "host:langfuse.com",
@@ -2344,7 +2343,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.595Z",
+      "lastSeenAt": "2026-11-19T11:53:17.579Z",
       "status": "online",
       "failures": 0
     },
@@ -2368,7 +2367,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.920Z",
+      "lastSeenAt": "2026-11-19T11:53:17.998Z",
       "status": "online",
       "failures": 0
     },
@@ -2392,7 +2391,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.754Z",
+      "lastSeenAt": "2026-11-19T11:53:17.854Z",
       "status": "online",
       "failures": 0
     },
@@ -2416,7 +2415,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.753Z",
+      "lastSeenAt": "2026-11-19T11:53:17.746Z",
       "status": "online",
       "failures": 0
     },
@@ -2440,7 +2439,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.834Z",
+      "lastSeenAt": "2026-11-19T11:53:17.731Z",
       "status": "online",
       "failures": 0
     },
@@ -2464,7 +2463,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:58.098Z",
+      "lastSeenAt": "2026-11-19T11:53:18.069Z",
       "status": "online",
       "failures": 0
     },
@@ -2488,7 +2487,7 @@
       "seeded": true,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:57.888Z",
+      "lastSeenAt": "2026-11-19T11:53:18.071Z",
       "status": "online",
       "failures": 0
     },
@@ -2509,7 +2508,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-11T15:33:06Z",
-      "lastSeenAt": "2026-11-18T11:55:58.220Z",
+      "lastSeenAt": "2026-11-19T11:53:18.280Z",
       "status": "online",
       "failures": 0
     },
@@ -2530,7 +2529,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-11T18:10:46Z",
-      "lastSeenAt": "2026-11-18T11:55:58.382Z",
+      "lastSeenAt": "2026-11-19T11:53:18.363Z",
       "status": "online",
       "failures": 0
     },
@@ -2551,7 +2550,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T14:08:12Z",
-      "lastSeenAt": "2026-11-18T11:55:58.258Z",
+      "lastSeenAt": "2026-11-19T11:53:18.298Z",
       "status": "online",
       "failures": 0
     },
@@ -2572,7 +2571,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:55:58.073Z",
+      "lastSeenAt": "2026-11-19T11:53:18.434Z",
       "status": "online",
       "failures": 0
     },
@@ -2581,19 +2580,19 @@
       "url": "https://aws.amazon.com/bedrock",
       "domain": "aws.amazon.com",
       "title": "Amazon Bedrock",
-      "description": "Amazon Bedrock 在 models.dev 收录 208 个模型，可通过 API 接入。",
+      "description": "Amazon Bedrock 在 models.dev 收录 214 个模型，可通过 API 接入。",
       "category": "llm-provider",
       "tags": [],
       "icon": "assets/icons/aws.amazon.com.png",
       "score": 59,
-      "weight": 6.640292572222108,
+      "weight": 6.664876919831211,
       "source": [
         "models.dev"
       ],
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:55:58.185Z",
+      "lastSeenAt": "2026-11-19T11:53:18.401Z",
       "status": "online",
       "failures": 0
     },
@@ -2614,7 +2613,29 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T16:52:31Z",
-      "lastSeenAt": "2026-11-18T11:55:58.201Z",
+      "lastSeenAt": "2026-11-19T11:53:18.461Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:kilo.ai",
+      "url": "https://kilo.ai/",
+      "domain": "kilo.ai",
+      "title": "authentication",
+      "description": "The kilo-auto/free router picks a model from the free pool, and Kilo's docs warn it \"may route your requests t…",
+      "category": "ai-tool",
+      "tags": [],
+      "icon": "assets/icons/kilo.ai.png",
+      "score": 59,
+      "weight": 7,
+      "source": [
+        "awesome-free-llm-apis",
+        "models.dev"
+      ],
+      "seeded": false,
+      "isNew": false,
+      "firstSeenAt": "2026-11-12T12:18:46.000Z",
+      "lastSeenAt": "2026-11-19T11:53:18.637Z",
       "status": "online",
       "failures": 0
     },
@@ -2635,7 +2656,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-11T04:56:47Z",
-      "lastSeenAt": "2026-11-18T11:55:58.565Z",
+      "lastSeenAt": "2026-11-19T11:53:18.849Z",
       "status": "online",
       "failures": 0
     },
@@ -2656,7 +2677,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T14:14:51Z",
-      "lastSeenAt": "2026-11-18T11:55:58.666Z",
+      "lastSeenAt": "2026-11-19T11:53:18.774Z",
       "status": "online",
       "failures": 0
     },
@@ -2665,7 +2686,7 @@
       "url": "https://llmgateway.io/docs",
       "domain": "llmgateway.io",
       "title": "DevPass (LLM Gateway)",
-      "description": "DevPass (LLM Gateway) 在 models.dev 收录 215 个模型，可通过 API 接入。",
+      "description": "DevPass (LLM Gateway) 在 models.dev 收录 216 个模型，可通过 API 接入。",
       "category": "llm-provider",
       "tags": [],
       "icon": "assets/icons/llmgateway.io.ico",
@@ -2677,7 +2698,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:58.500Z",
+      "lastSeenAt": "2026-11-19T11:53:18.917Z",
       "status": "online",
       "failures": 0
     },
@@ -2698,29 +2719,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T11:12:07.851Z",
-      "lastSeenAt": "2026-11-18T11:55:58.695Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:kilo.ai",
-      "url": "https://kilo.ai/",
-      "domain": "kilo.ai",
-      "title": "Kilo Gateway",
-      "description": "Kilo Gateway 在 models.dev 收录 465 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/kilo.ai.png",
-      "score": 59,
-      "weight": 7,
-      "source": [
-        "awesome-free-llm-apis",
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:58.636Z",
+      "lastSeenAt": "2026-11-19T11:53:19.217Z",
       "status": "online",
       "failures": 0
     },
@@ -2741,7 +2740,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:55:59.333Z",
+      "lastSeenAt": "2026-11-19T11:53:19.659Z",
       "status": "online",
       "failures": 0
     },
@@ -2762,7 +2761,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:59.141Z",
+      "lastSeenAt": "2026-11-19T11:53:20.199Z",
       "status": "online",
       "failures": 0
     },
@@ -2783,7 +2782,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:55:58.850Z",
+      "lastSeenAt": "2026-11-19T11:53:19.997Z",
       "status": "online",
       "failures": 0
     },
@@ -2792,19 +2791,62 @@
       "url": "https://vercel.com/ai",
       "domain": "vercel.com",
       "title": "Vercel AI Gateway",
-      "description": "Vercel AI Gateway 在 models.dev 收录 419 个模型，可通过 API 接入。",
+      "description": "Vercel AI Gateway 在 models.dev 收录 418 个模型，可通过 API 接入。",
       "category": "llm-provider",
       "tags": [],
       "icon": "assets/icons/vercel.com.png",
       "score": 59,
       "weight": 7,
       "source": [
+        "hn",
         "models.dev"
       ],
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:58.727Z",
+      "lastSeenAt": "2026-11-19T11:53:19.110Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:doc.302.ai",
+      "url": "https://doc.302.ai/",
+      "domain": "doc.302.ai",
+      "title": "302.AI",
+      "description": "302.AI 在 models.dev 收录 127 个模型，可通过 API 接入。",
+      "category": "llm-provider",
+      "tags": [],
+      "icon": "assets/icons/doc.302.ai.png",
+      "score": 58,
+      "weight": 6.214419939295737,
+      "source": [
+        "models.dev"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T11:52:48.649Z",
+      "lastSeenAt": "2026-11-19T11:53:20.017Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:adeindex.com",
+      "url": "https://adeindex.com/",
+      "domain": "adeindex.com",
+      "title": "ADE Index – a sourced and ranked index of 975 agentic coding tools",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "ai-tool",
+      "tags": [],
+      "icon": "assets/icons/adeindex.com.svg",
+      "score": 58,
+      "weight": 5.6020599913279625,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T01:33:52Z",
+      "lastSeenAt": "2026-11-19T11:53:19.491Z",
       "status": "online",
       "failures": 0
     },
@@ -2825,7 +2867,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T14:31:21Z",
-      "lastSeenAt": "2026-11-18T11:55:58.770Z",
+      "lastSeenAt": "2026-11-19T11:53:19.692Z",
       "status": "online",
       "failures": 0
     },
@@ -2846,16 +2888,16 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:55:59.124Z",
+      "lastSeenAt": "2026-11-19T11:53:20.037Z",
       "status": "online",
       "failures": 0
     },
     {
       "id": "host:alibabacloud.com",
-      "url": "https://www.alibabacloud.com/help/en/model-studio/models",
+      "url": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview",
       "domain": "alibabacloud.com",
-      "title": "Alibaba (China)",
-      "description": "Alibaba (China) 在 models.dev 收录 80 个模型，可通过 API 接入。",
+      "title": "Alibaba Token Plan (China)",
+      "description": "Alibaba Token Plan (China) 在 models.dev 收录 29 个模型，可通过 API 接入。",
       "category": "llm-provider",
       "tags": [],
       "icon": "assets/icons/alibabacloud.com.svg",
@@ -2867,7 +2909,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:59.546Z",
+      "lastSeenAt": "2026-11-19T11:53:20.537Z",
       "status": "online",
       "failures": 0
     },
@@ -2875,20 +2917,20 @@
       "id": "host:learn.microsoft.com",
       "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
       "domain": "learn.microsoft.com",
-      "title": "Azure",
-      "description": "Azure 在 models.dev 收录 97 个模型，可通过 API 接入。",
+      "title": "Azure Cognitive Services",
+      "description": "Azure Cognitive Services 在 models.dev 收录 99 个模型，可通过 API 接入。",
       "category": "llm-provider",
       "tags": [],
       "icon": "assets/icons/learn.microsoft.com.ico",
       "score": 58,
-      "weight": 5.98245215138499,
+      "weight": 6,
       "source": [
         "models.dev"
       ],
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:59.033Z",
+      "lastSeenAt": "2026-11-19T11:53:19.988Z",
       "status": "online",
       "failures": 0
     },
@@ -2909,7 +2951,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T17:06:17Z",
-      "lastSeenAt": "2026-11-18T11:55:59.216Z",
+      "lastSeenAt": "2026-11-19T11:53:20.287Z",
       "status": "online",
       "failures": 0
     },
@@ -2930,7 +2972,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T20:53:04Z",
-      "lastSeenAt": "2026-11-18T11:55:59.260Z",
+      "lastSeenAt": "2026-11-19T11:53:20.466Z",
       "status": "online",
       "failures": 0
     },
@@ -2951,7 +2993,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:59.142Z",
+      "lastSeenAt": "2026-11-19T11:53:20.240Z",
       "status": "online",
       "failures": 0
     },
@@ -2972,7 +3014,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:00.088Z",
+      "lastSeenAt": "2026-11-19T11:53:20.984Z",
       "status": "online",
       "failures": 0
     },
@@ -2993,7 +3035,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T11:12:07.851Z",
-      "lastSeenAt": "2026-11-18T11:55:59.317Z",
+      "lastSeenAt": "2026-11-19T11:53:20.464Z",
       "status": "online",
       "failures": 0
     },
@@ -3013,7 +3055,7 @@
       ],
       "seeded": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:59.265Z",
+      "lastSeenAt": "2026-11-19T11:53:20.314Z",
       "status": "online",
       "failures": 0,
       "isNew": false
@@ -3035,7 +3077,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T13:50:51Z",
-      "lastSeenAt": "2026-11-18T11:55:59.652Z",
+      "lastSeenAt": "2026-11-19T11:53:20.826Z",
       "status": "online",
       "failures": 0
     },
@@ -3056,7 +3098,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:55:59.308Z",
+      "lastSeenAt": "2026-11-19T11:53:20.459Z",
       "status": "online",
       "failures": 0
     },
@@ -3077,7 +3119,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T12:41:48Z",
-      "lastSeenAt": "2026-11-18T11:55:59.649Z",
+      "lastSeenAt": "2026-11-19T11:53:20.798Z",
       "status": "online",
       "failures": 0
     },
@@ -3098,7 +3140,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:59.658Z",
+      "lastSeenAt": "2026-11-19T11:53:20.756Z",
       "status": "online",
       "failures": 0
     },
@@ -3119,7 +3161,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T19:09:55Z",
-      "lastSeenAt": "2026-11-18T11:55:59.816Z",
+      "lastSeenAt": "2026-11-19T11:53:20.943Z",
       "status": "online",
       "failures": 0
     },
@@ -3140,7 +3182,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:55:59.984Z",
+      "lastSeenAt": "2026-11-19T11:53:21.436Z",
       "status": "online",
       "failures": 0
     },
@@ -3161,7 +3203,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T18:08:04Z",
-      "lastSeenAt": "2026-11-18T11:56:00.310Z",
+      "lastSeenAt": "2026-11-19T11:53:21.691Z",
       "status": "online",
       "failures": 0
     },
@@ -3182,7 +3224,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T11:41:43.365Z",
-      "lastSeenAt": "2026-11-18T11:55:59.853Z",
+      "lastSeenAt": "2026-11-19T11:53:21.264Z",
       "status": "online",
       "failures": 0
     },
@@ -3203,7 +3245,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T02:12:13Z",
-      "lastSeenAt": "2026-11-18T11:56:00.295Z",
+      "lastSeenAt": "2026-11-19T11:53:21.194Z",
       "status": "online",
       "failures": 0
     },
@@ -3224,7 +3266,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:55:59.899Z",
+      "lastSeenAt": "2026-11-19T11:53:21.146Z",
       "status": "online",
       "failures": 0
     },
@@ -3245,7 +3287,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T08:08:11Z",
-      "lastSeenAt": "2026-11-18T11:55:59.974Z",
+      "lastSeenAt": "2026-11-19T11:53:21.236Z",
       "status": "online",
       "failures": 0
     },
@@ -3266,7 +3308,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:03.192Z",
+      "lastSeenAt": "2026-11-19T11:53:25.518Z",
       "status": "online",
       "failures": 0
     },
@@ -3287,7 +3329,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T11:41:43.365Z",
-      "lastSeenAt": "2026-11-18T11:56:00.007Z",
+      "lastSeenAt": "2026-11-19T11:53:21.370Z",
       "status": "online",
       "failures": 0
     },
@@ -3308,7 +3350,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-18T11:56:00.665Z",
+      "lastSeenAt": "2026-11-19T11:53:21.849Z",
       "status": "online",
       "failures": 0
     },
@@ -3329,7 +3371,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-18T11:56:00.372Z",
+      "lastSeenAt": "2026-11-19T11:53:21.763Z",
       "status": "online",
       "failures": 0
     },
@@ -3350,7 +3392,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T03:47:15Z",
-      "lastSeenAt": "2026-11-18T11:56:00.249Z",
+      "lastSeenAt": "2026-11-19T11:53:21.690Z",
       "status": "online",
       "failures": 0
     },
@@ -3371,7 +3413,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:56:01.101Z",
+      "lastSeenAt": "2026-11-19T11:53:21.942Z",
       "status": "online",
       "failures": 0
     },
@@ -3392,7 +3434,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:00.463Z",
+      "lastSeenAt": "2026-11-19T11:53:22.069Z",
       "status": "online",
       "failures": 0
     },
@@ -3413,7 +3455,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:56:00.415Z",
+      "lastSeenAt": "2026-11-19T11:53:21.806Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:kradle.ai",
+      "url": "https://www.kradle.ai/",
+      "domain": "kradle.ai",
+      "title": "KradleBench – Multi-agent AI evals in Minecraft",
+      "description": "Hi HN - This is James and Kemal. In past lives we led Firebase and Tensorflow/JAX respectively. HN has been a …",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/kradle.ai.png",
+      "score": 58,
+      "weight": 5,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T19:14:28Z",
+      "lastSeenAt": "2026-11-19T11:53:21.837Z",
       "status": "online",
       "failures": 0
     },
@@ -3434,7 +3497,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T11:41:43.365Z",
-      "lastSeenAt": "2026-11-18T11:56:01.632Z",
+      "lastSeenAt": "2026-11-19T11:53:23.193Z",
       "status": "online",
       "failures": 0
     },
@@ -3455,7 +3518,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:00.449Z",
+      "lastSeenAt": "2026-11-19T11:53:22.131Z",
       "status": "online",
       "failures": 0
     },
@@ -3476,7 +3539,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T21:06:26Z",
-      "lastSeenAt": "2026-11-18T11:56:00.579Z",
+      "lastSeenAt": "2026-11-19T11:53:22.200Z",
       "status": "online",
       "failures": 0
     },
@@ -3485,7 +3548,7 @@
       "url": "https://docs.near.ai/",
       "domain": "docs.near.ai",
       "title": "NEAR AI Cloud",
-      "description": "NEAR AI Cloud 在 models.dev 收录 60 个模型，可通过 API 接入。",
+      "description": "NEAR AI Cloud 在 models.dev 收录 59 个模型，可通过 API 接入。",
       "category": "llm-provider",
       "tags": [],
       "icon": "assets/icons/docs.near.ai.png",
@@ -3497,7 +3560,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:00.530Z",
+      "lastSeenAt": "2026-11-19T11:53:22.351Z",
       "status": "online",
       "failures": 0
     },
@@ -3518,7 +3581,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T16:47:40Z",
-      "lastSeenAt": "2026-11-18T11:56:00.869Z",
+      "lastSeenAt": "2026-11-19T11:53:22.554Z",
       "status": "online",
       "failures": 0
     },
@@ -3527,19 +3590,19 @@
       "url": "https://novita.ai/docs/guides/introduction",
       "domain": "novita.ai",
       "title": "Novita AI",
-      "description": "Novita AI 在 models.dev 收录 91 个模型，可通过 API 接入。",
+      "description": "Novita AI 在 models.dev 收录 97 个模型，可通过 API 接入。",
       "category": "llm-provider",
       "tags": [],
       "icon": "assets/icons/novita.ai.png",
       "score": 58,
-      "weight": 5.92757565469111,
+      "weight": 5.98245215138499,
       "source": [
         "models.dev"
       ],
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:00.651Z",
+      "lastSeenAt": "2026-11-19T11:53:22.778Z",
       "status": "online",
       "failures": 0
     },
@@ -3560,7 +3623,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:01.069Z",
+      "lastSeenAt": "2026-11-19T11:53:24.190Z",
       "status": "online",
       "failures": 0
     },
@@ -3581,7 +3644,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:02.611Z",
+      "lastSeenAt": "2026-11-19T11:53:27.079Z",
       "status": "online",
       "failures": 0
     },
@@ -3602,7 +3665,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:01.109Z",
+      "lastSeenAt": "2026-11-19T11:53:22.843Z",
       "status": "online",
       "failures": 0
     },
@@ -3623,7 +3686,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T11:12:07.851Z",
-      "lastSeenAt": "2026-11-18T11:56:01.329Z",
+      "lastSeenAt": "2026-11-19T11:53:23.861Z",
       "status": "online",
       "failures": 0
     },
@@ -3644,7 +3707,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:56:01.177Z",
+      "lastSeenAt": "2026-11-19T11:53:22.873Z",
       "status": "online",
       "failures": 0
     },
@@ -3665,7 +3728,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T11:41:43.365Z",
-      "lastSeenAt": "2026-11-18T11:56:01.333Z",
+      "lastSeenAt": "2026-11-19T11:53:23.202Z",
       "status": "online",
       "failures": 0
     },
@@ -3686,7 +3749,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T03:18:53Z",
-      "lastSeenAt": "2026-11-18T11:56:01.695Z",
+      "lastSeenAt": "2026-11-19T11:53:23.255Z",
       "status": "online",
       "failures": 0
     },
@@ -3707,7 +3770,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-18T11:56:04.282Z",
+      "lastSeenAt": "2026-11-19T11:53:24.557Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:springcraft-ai.github.io",
+      "url": "https://springcraft-ai.github.io/springrep",
+      "domain": "springcraft-ai.github.io",
+      "title": "Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
+      "description": "Hey HN, I’m Tony. I’m a co-founder of Springcraft, where we have been doing a lot of CAD modeling for robot pa…",
+      "category": "ai-tool",
+      "tags": [],
+      "icon": "assets/icons/springcraft-ai.github.io.svg",
+      "score": 58,
+      "weight": 6.0102999566398125,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T21:08:47Z",
+      "lastSeenAt": "2026-11-19T11:53:23.558Z",
       "status": "online",
       "failures": 0
     },
@@ -3728,7 +3812,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T12:04:10.626Z",
-      "lastSeenAt": "2026-11-18T11:56:01.634Z",
+      "lastSeenAt": "2026-11-19T11:53:23.597Z",
       "status": "online",
       "failures": 0
     },
@@ -3749,7 +3833,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T13:02:53Z",
-      "lastSeenAt": "2026-11-18T11:56:01.529Z",
+      "lastSeenAt": "2026-11-19T11:53:23.469Z",
       "status": "online",
       "failures": 0
     },
@@ -3770,7 +3854,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-18T11:56:02.330Z",
+      "lastSeenAt": "2026-11-19T11:53:24.129Z",
       "status": "online",
       "failures": 0
     },
@@ -3789,9 +3873,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T16:54:55Z",
-      "lastSeenAt": "2026-11-18T11:56:01.861Z",
+      "lastSeenAt": "2026-11-19T11:53:23.806Z",
       "status": "online",
       "failures": 0
     },
@@ -3812,7 +3896,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:01.935Z",
+      "lastSeenAt": "2026-11-19T11:53:23.830Z",
       "status": "online",
       "failures": 0
     },
@@ -3833,7 +3917,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-10T18:33:17Z",
-      "lastSeenAt": "2026-11-18T11:56:02.289Z",
+      "lastSeenAt": "2026-11-19T11:53:24.199Z",
       "status": "online",
       "failures": 0
     },
@@ -3854,7 +3938,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:56:02.136Z",
+      "lastSeenAt": "2026-11-19T11:53:24.211Z",
       "status": "online",
       "failures": 0
     },
@@ -3873,9 +3957,30 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T16:01:04Z",
-      "lastSeenAt": "2026-11-18T11:56:02.355Z",
+      "lastSeenAt": "2026-11-19T11:53:24.338Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "github:google-deepmind/robotics-antigravity-plugin",
+      "url": "https://github.com/google-deepmind/robotics-antigravity-plugin",
+      "domain": "github.com",
+      "title": "Try Vibe Robotics! (IRL or MuJoCo SIM)",
+      "description": "Hey HN, I'm Salman, a research engineer at GDM Robotics on the team that built this robotics plugin. Whether y…",
+      "category": "ai-tool",
+      "tags": [],
+      "icon": "assets/icons/github-google-deepmind-robotics-antigravity-plugin.png",
+      "score": 58,
+      "weight": 5.15836249209525,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T23:38:40Z",
+      "lastSeenAt": "2026-11-19T11:53:24.624Z",
       "status": "online",
       "failures": 0
     },
@@ -3895,7 +4000,7 @@
       ],
       "seeded": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:02.596Z",
+      "lastSeenAt": "2026-11-19T11:53:25.505Z",
       "status": "online",
       "failures": 0,
       "isNew": false,
@@ -3918,7 +4023,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:03.034Z",
+      "lastSeenAt": "2026-11-19T11:53:24.551Z",
       "status": "online",
       "failures": 0
     },
@@ -3939,7 +4044,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:56:02.968Z",
+      "lastSeenAt": "2026-11-19T11:53:24.653Z",
       "status": "online",
       "failures": 0
     },
@@ -3960,7 +4065,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:56:02.747Z",
+      "lastSeenAt": "2026-11-19T11:53:24.979Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "github:gabrielvfonseca/replica",
+      "url": "https://github.com/gabrielvfonseca/replica",
+      "domain": "github.com",
+      "title": "100ms copy-on-write workspaces for AI agents on macOS",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/github-gabrielvfonseca-replica.jpg",
+      "score": 57,
+      "weight": 4.204119982655925,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T22:51:02Z",
+      "lastSeenAt": "2026-11-19T11:53:25.065Z",
       "status": "online",
       "failures": 0
     },
@@ -3981,7 +4107,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T19:09:33Z",
-      "lastSeenAt": "2026-11-18T11:56:03.099Z",
+      "lastSeenAt": "2026-11-19T11:53:25.150Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "github:chayworks/milo-pointer",
+      "url": "https://github.com/chayworks/milo-pointer",
+      "domain": "github.com",
+      "title": "A 149M model handles 70% of phone-agent steps locally, Claude the rest",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/github-chayworks-milo-pointer.png",
+      "score": 57,
+      "weight": 3.6020599913279625,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T21:44:59Z",
+      "lastSeenAt": "2026-11-19T11:53:25.061Z",
       "status": "online",
       "failures": 0
     },
@@ -4000,9 +4147,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T20:23:58Z",
-      "lastSeenAt": "2026-11-18T11:56:03.057Z",
+      "lastSeenAt": "2026-11-19T11:53:25.137Z",
       "status": "online",
       "failures": 0
     },
@@ -4023,7 +4170,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T04:49:45Z",
-      "lastSeenAt": "2026-11-18T11:56:03.160Z",
+      "lastSeenAt": "2026-11-19T11:53:25.588Z",
       "status": "online",
       "failures": 0
     },
@@ -4044,7 +4191,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T04:07:31Z",
-      "lastSeenAt": "2026-11-18T11:56:03.149Z",
+      "lastSeenAt": "2026-11-19T11:53:25.266Z",
       "status": "online",
       "failures": 0
     },
@@ -4065,7 +4212,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T16:51:53Z",
-      "lastSeenAt": "2026-11-18T11:56:03.288Z",
+      "lastSeenAt": "2026-11-19T11:53:25.282Z",
       "status": "online",
       "failures": 0
     },
@@ -4086,7 +4233,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T23:19:01Z",
-      "lastSeenAt": "2026-11-18T11:56:03.300Z",
+      "lastSeenAt": "2026-11-19T11:53:25.280Z",
       "status": "online",
       "failures": 0
     },
@@ -4105,9 +4252,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T01:42:19Z",
-      "lastSeenAt": "2026-11-18T11:56:03.310Z",
+      "lastSeenAt": "2026-11-19T11:53:25.333Z",
       "status": "online",
       "failures": 0
     },
@@ -4126,9 +4273,30 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T16:59:52Z",
-      "lastSeenAt": "2026-11-18T11:56:03.538Z",
+      "lastSeenAt": "2026-11-19T11:53:25.724Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:orthosetter.com",
+      "url": "https://orthosetter.com/",
+      "domain": "orthosetter.com",
+      "title": "A deterministic typesetting tool for Orthodox Music",
+      "description": "I'm a trained Russian Orthodox church musician and software developer. I figured I would flog my Claude Pro su…",
+      "category": "ai-media",
+      "tags": [],
+      "icon": "assets/icons/orthosetter.com.png",
+      "score": 57,
+      "weight": 4.556302500767288,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T18:34:51Z",
+      "lastSeenAt": "2026-11-19T11:53:25.481Z",
       "status": "online",
       "failures": 0
     },
@@ -4149,7 +4317,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:15:53Z",
-      "lastSeenAt": "2026-11-18T11:56:03.868Z",
+      "lastSeenAt": "2026-11-19T11:53:25.910Z",
       "status": "online",
       "failures": 0
     },
@@ -4170,7 +4338,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-11T20:00:42Z",
-      "lastSeenAt": "2026-11-18T11:56:03.600Z",
+      "lastSeenAt": "2026-11-19T11:53:25.450Z",
       "status": "online",
       "failures": 0
     },
@@ -4191,7 +4359,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T16:35:32Z",
-      "lastSeenAt": "2026-11-18T11:56:03.910Z",
+      "lastSeenAt": "2026-11-19T11:53:25.968Z",
       "status": "online",
       "failures": 0
     },
@@ -4210,9 +4378,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T10:58:55Z",
-      "lastSeenAt": "2026-11-18T11:56:03.347Z",
+      "lastSeenAt": "2026-11-19T11:53:25.764Z",
       "status": "online",
       "failures": 0
     },
@@ -4233,7 +4401,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T14:52:06Z",
-      "lastSeenAt": "2026-11-18T11:56:03.780Z",
+      "lastSeenAt": "2026-11-19T11:53:26.328Z",
       "status": "online",
       "failures": 0
     },
@@ -4254,7 +4422,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T18:51:36Z",
-      "lastSeenAt": "2026-11-18T11:56:03.854Z",
+      "lastSeenAt": "2026-11-19T11:53:26.000Z",
       "status": "online",
       "failures": 0
     },
@@ -4275,7 +4443,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T10:55:35Z",
-      "lastSeenAt": "2026-11-18T11:56:03.915Z",
+      "lastSeenAt": "2026-11-19T11:53:26.119Z",
       "status": "online",
       "failures": 0
     },
@@ -4296,7 +4464,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-11T20:22:05Z",
-      "lastSeenAt": "2026-11-18T11:56:04.115Z",
+      "lastSeenAt": "2026-11-19T11:53:26.249Z",
       "status": "online",
       "failures": 0
     },
@@ -4317,7 +4485,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-10T16:05:43Z",
-      "lastSeenAt": "2026-11-18T11:56:04.122Z",
+      "lastSeenAt": "2026-11-19T11:53:26.315Z",
       "status": "online",
       "failures": 0
     },
@@ -4336,9 +4504,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T21:46:06Z",
-      "lastSeenAt": "2026-11-18T11:56:03.904Z",
+      "lastSeenAt": "2026-11-19T11:53:26.102Z",
       "status": "online",
       "failures": 0
     },
@@ -4359,7 +4527,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-18T11:56:04.414Z",
+      "lastSeenAt": "2026-11-19T11:53:26.487Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:docs.adaptionlabs.ai",
+      "url": "https://docs.adaptionlabs.ai/",
+      "domain": "docs.adaptionlabs.ai",
+      "title": "Adaption",
+      "description": "Adaption 在 models.dev 收录 7 个模型，可通过 API 接入。",
+      "category": "llm-provider",
+      "tags": [],
+      "icon": "assets/icons/docs.adaptionlabs.ai.png",
+      "score": 57,
+      "weight": 3.806179973983887,
+      "source": [
+        "models.dev"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T11:52:48.649Z",
+      "lastSeenAt": "2026-11-19T11:53:26.127Z",
       "status": "online",
       "failures": 0
     },
@@ -4380,7 +4569,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T11:12:07.851Z",
-      "lastSeenAt": "2026-11-18T11:56:04.321Z",
+      "lastSeenAt": "2026-11-19T11:53:26.423Z",
       "status": "online",
       "failures": 0
     },
@@ -4401,7 +4590,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T19:11:40Z",
-      "lastSeenAt": "2026-11-18T11:56:04.906Z",
+      "lastSeenAt": "2026-11-19T11:53:26.803Z",
       "status": "online",
       "failures": 0
     },
@@ -4422,7 +4611,49 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T01:38:09Z",
-      "lastSeenAt": "2026-11-18T11:56:04.070Z",
+      "lastSeenAt": "2026-11-19T11:53:26.295Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:agentbolt.dev",
+      "url": "https://agentbolt.dev/",
+      "domain": "agentbolt.dev",
+      "title": "Agent Bolt – a browser game that teaches Claude Code by doing",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "coding-agent",
+      "tags": [],
+      "icon": "assets/icons/agentbolt.dev.svg",
+      "score": 57,
+      "weight": 4.204119982655925,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T10:23:48Z",
+      "lastSeenAt": "2026-11-19T11:53:26.318Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "github:ericwang915/agent-hive",
+      "url": "https://github.com/ericwang915/agent-hive",
+      "domain": "github.com",
+      "title": "Agent Hive – cute Grokbot like agentic teams with queen and many bees",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/github-ericwang915-agent-hive.png",
+      "score": 57,
+      "weight": 3.9542425094393248,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T00:13:46Z",
+      "lastSeenAt": "2026-11-19T11:53:26.702Z",
       "status": "online",
       "failures": 0
     },
@@ -4443,7 +4674,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-11T23:11:38Z",
-      "lastSeenAt": "2026-11-18T11:56:04.617Z",
+      "lastSeenAt": "2026-11-19T11:53:26.797Z",
       "status": "online",
       "failures": 0
     },
@@ -4462,9 +4693,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T09:31:57Z",
-      "lastSeenAt": "2026-11-18T11:56:04.535Z",
+      "lastSeenAt": "2026-11-19T11:53:26.915Z",
       "status": "online",
       "failures": 0
     },
@@ -4485,7 +4716,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T05:10:41Z",
-      "lastSeenAt": "2026-11-18T11:56:04.664Z",
+      "lastSeenAt": "2026-11-19T11:53:26.898Z",
       "status": "online",
       "failures": 0
     },
@@ -4506,7 +4737,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T15:23:59Z",
-      "lastSeenAt": "2026-11-18T11:56:04.692Z",
+      "lastSeenAt": "2026-11-19T11:53:27.013Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:agentkombat.com",
+      "url": "https://agentkombat.com/",
+      "domain": "agentkombat.com",
+      "title": "AgentKombat – LLM agents fight; your prompt is the fighting style",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/agentkombat.com.png",
+      "score": 57,
+      "weight": 3.6020599913279625,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T15:33:37Z",
+      "lastSeenAt": "2026-11-19T11:53:26.694Z",
       "status": "online",
       "failures": 0
     },
@@ -4527,7 +4779,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T01:36:36Z",
-      "lastSeenAt": "2026-11-18T11:56:04.607Z",
+      "lastSeenAt": "2026-11-19T11:53:27.179Z",
       "status": "online",
       "failures": 0
     },
@@ -4548,7 +4800,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T20:14:18Z",
-      "lastSeenAt": "2026-11-18T11:56:04.827Z",
+      "lastSeenAt": "2026-11-19T11:53:27.168Z",
       "status": "online",
       "failures": 0
     },
@@ -4567,9 +4819,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T04:39:11Z",
-      "lastSeenAt": "2026-11-18T11:56:04.913Z",
+      "lastSeenAt": "2026-11-19T11:53:27.260Z",
       "status": "online",
       "failures": 0
     },
@@ -4590,7 +4842,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T23:36:09Z",
-      "lastSeenAt": "2026-11-18T11:56:05.146Z",
+      "lastSeenAt": "2026-11-19T11:53:27.420Z",
       "status": "online",
       "failures": 0
     },
@@ -4611,7 +4863,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T08:16:26Z",
-      "lastSeenAt": "2026-11-18T11:56:05.061Z",
+      "lastSeenAt": "2026-11-19T11:53:27.342Z",
       "status": "online",
       "failures": 0
     },
@@ -4632,7 +4884,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T11:45:41Z",
-      "lastSeenAt": "2026-11-18T11:56:04.984Z",
+      "lastSeenAt": "2026-11-19T11:53:27.584Z",
       "status": "online",
       "failures": 0
     },
@@ -4653,7 +4905,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T22:47:54Z",
-      "lastSeenAt": "2026-11-18T11:56:04.804Z",
+      "lastSeenAt": "2026-11-19T11:53:27.219Z",
       "status": "online",
       "failures": 0
     },
@@ -4674,28 +4926,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T18:06:55Z",
-      "lastSeenAt": "2026-11-18T11:56:05.205Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:chromewebstore.google.com",
-      "url": "https://chromewebstore.google.com/detail/ai-math-kit/acdddhokifmffbmnelpfcnhbpdedadkj",
-      "domain": "chromewebstore.google.com",
-      "title": "AI Math Kit – Open Problems. Explore Honestly",
-      "description": "Hacker News 社区分享的 AI 项目。",
-      "category": "ai-tool",
-      "tags": [],
-      "icon": "assets/icons/chromewebstore.google.com.png",
-      "score": 57,
-      "weight": 4.204119982655925,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-13T00:51:52Z",
-      "lastSeenAt": "2026-11-18T11:56:05.059Z",
+      "lastSeenAt": "2026-11-19T11:53:27.973Z",
       "status": "online",
       "failures": 0
     },
@@ -4716,7 +4947,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T11:12:07.851Z",
-      "lastSeenAt": "2026-11-18T11:56:05.394Z",
+      "lastSeenAt": "2026-11-19T11:53:27.733Z",
       "status": "online",
       "failures": 0
     },
@@ -4737,7 +4968,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T18:32:30Z",
-      "lastSeenAt": "2026-11-18T11:56:05.542Z",
+      "lastSeenAt": "2026-11-19T11:53:27.644Z",
       "status": "online",
       "failures": 0
     },
@@ -4758,7 +4989,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T08:05:44Z",
-      "lastSeenAt": "2026-11-18T11:56:05.520Z",
+      "lastSeenAt": "2026-11-19T11:53:27.680Z",
       "status": "online",
       "failures": 0
     },
@@ -4777,9 +5008,9 @@
         "models.dev"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T11:55:30.377Z",
-      "lastSeenAt": "2026-11-18T11:56:05.071Z",
+      "lastSeenAt": "2026-11-19T11:53:27.692Z",
       "status": "online",
       "failures": 0
     },
@@ -4800,7 +5031,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T11:12:07.851Z",
-      "lastSeenAt": "2026-11-18T11:56:05.451Z",
+      "lastSeenAt": "2026-11-19T11:53:27.613Z",
       "status": "online",
       "failures": 0
     },
@@ -4821,7 +5052,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:05.198Z",
+      "lastSeenAt": "2026-11-19T11:53:27.653Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:aki.io",
+      "url": "https://aki.io/docs",
+      "domain": "aki.io",
+      "title": "AKI.IO",
+      "description": "AKI.IO 在 models.dev 收录 8 个模型，可通过 API 接入。",
+      "category": "llm-provider",
+      "tags": [],
+      "icon": "assets/icons/aki.io.png",
+      "score": 57,
+      "weight": 3.9084850188786495,
+      "source": [
+        "models.dev"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T11:52:48.649Z",
+      "lastSeenAt": "2026-11-19T11:53:28.974Z",
       "status": "online",
       "failures": 0
     },
@@ -4842,7 +5094,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T14:44:43Z",
-      "lastSeenAt": "2026-11-18T11:56:05.588Z",
+      "lastSeenAt": "2026-11-19T11:53:28.084Z",
       "status": "online",
       "failures": 0
     },
@@ -4863,7 +5115,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:56:05.249Z",
+      "lastSeenAt": "2026-11-19T11:53:27.860Z",
       "status": "online",
       "failures": 0
     },
@@ -4884,7 +5136,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:56:07.388Z",
+      "lastSeenAt": "2026-11-19T11:53:30.341Z",
       "status": "online",
       "failures": 0
     },
@@ -4903,9 +5155,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T16:12:01Z",
-      "lastSeenAt": "2026-11-18T11:56:05.346Z",
+      "lastSeenAt": "2026-11-19T11:53:28.451Z",
       "status": "online",
       "failures": 0
     },
@@ -4924,9 +5176,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T15:16:45Z",
-      "lastSeenAt": "2026-11-18T11:56:05.329Z",
+      "lastSeenAt": "2026-11-19T11:53:28.481Z",
       "status": "online",
       "failures": 0
     },
@@ -4946,7 +5198,7 @@
       ],
       "seeded": false,
       "firstSeenAt": "2026-11-11T16:59:55Z",
-      "lastSeenAt": "2026-11-18T11:56:05.825Z",
+      "lastSeenAt": "2026-11-19T11:53:28.926Z",
       "status": "online",
       "failures": 0,
       "isNew": false
@@ -4968,7 +5220,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T11:52:46Z",
-      "lastSeenAt": "2026-11-18T11:56:05.564Z",
+      "lastSeenAt": "2026-11-19T11:53:28.574Z",
       "status": "online",
       "failures": 0
     },
@@ -4989,7 +5241,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T23:42:35Z",
-      "lastSeenAt": "2026-11-18T11:56:05.500Z",
+      "lastSeenAt": "2026-11-19T11:53:28.524Z",
       "status": "online",
       "failures": 0
     },
@@ -5010,7 +5262,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:05.575Z",
+      "lastSeenAt": "2026-11-19T11:53:28.621Z",
       "status": "online",
       "failures": 0
     },
@@ -5031,7 +5283,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T03:31:00Z",
-      "lastSeenAt": "2026-11-18T11:56:05.661Z",
+      "lastSeenAt": "2026-11-19T11:53:28.684Z",
       "status": "online",
       "failures": 0
     },
@@ -5052,7 +5304,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T01:56:34Z",
-      "lastSeenAt": "2026-11-18T11:56:05.712Z",
+      "lastSeenAt": "2026-11-19T11:53:28.868Z",
       "status": "online",
       "failures": 0
     },
@@ -5071,9 +5323,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T10:18:55Z",
-      "lastSeenAt": "2026-11-18T11:56:05.605Z",
+      "lastSeenAt": "2026-11-19T11:53:28.706Z",
       "status": "online",
       "failures": 0
     },
@@ -5094,7 +5346,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T14:03:41Z",
-      "lastSeenAt": "2026-11-18T11:56:06.876Z",
+      "lastSeenAt": "2026-11-19T11:53:29.192Z",
       "status": "online",
       "failures": 0
     },
@@ -5115,7 +5367,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:51:23Z",
-      "lastSeenAt": "2026-11-18T11:56:06.039Z",
+      "lastSeenAt": "2026-11-19T11:53:28.917Z",
       "status": "online",
       "failures": 0
     },
@@ -5136,7 +5388,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T13:57:43Z",
-      "lastSeenAt": "2026-11-18T11:56:06.227Z",
+      "lastSeenAt": "2026-11-19T11:53:29.236Z",
       "status": "online",
       "failures": 0
     },
@@ -5157,7 +5409,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T16:03:33Z",
-      "lastSeenAt": "2026-11-18T11:56:06.293Z",
+      "lastSeenAt": "2026-11-19T11:53:29.643Z",
       "status": "online",
       "failures": 0
     },
@@ -5176,9 +5428,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T16:47:30Z",
-      "lastSeenAt": "2026-11-18T11:56:06.122Z",
+      "lastSeenAt": "2026-11-19T11:53:31.085Z",
       "status": "online",
       "failures": 0
     },
@@ -5199,7 +5451,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T02:10:21Z",
-      "lastSeenAt": "2026-11-18T11:56:05.960Z",
+      "lastSeenAt": "2026-11-19T11:53:29.196Z",
       "status": "online",
       "failures": 0
     },
@@ -5220,7 +5472,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T19:06:04Z",
-      "lastSeenAt": "2026-11-18T11:56:06.623Z",
+      "lastSeenAt": "2026-11-19T11:53:29.640Z",
       "status": "online",
       "failures": 0
     },
@@ -5239,9 +5491,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T16:48:18Z",
-      "lastSeenAt": "2026-11-18T11:56:06.038Z",
+      "lastSeenAt": "2026-11-19T11:53:29.300Z",
       "status": "online",
       "failures": 0
     },
@@ -5262,7 +5514,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T18:03:01Z",
-      "lastSeenAt": "2026-11-18T11:56:06.210Z",
+      "lastSeenAt": "2026-11-19T11:53:29.329Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:augureai.ca",
+      "url": "https://augureai.ca/docs/api",
+      "domain": "augureai.ca",
+      "title": "Augure",
+      "description": "Augure 在 models.dev 收录 6 个模型，可通过 API 接入。",
+      "category": "llm-provider",
+      "tags": [],
+      "icon": "assets/icons/augureai.ca.svg",
+      "score": 57,
+      "weight": 3.690196080028514,
+      "source": [
+        "models.dev"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T11:52:48.649Z",
+      "lastSeenAt": "2026-11-19T11:53:29.414Z",
       "status": "online",
       "failures": 0
     },
@@ -5283,7 +5556,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:06.364Z",
+      "lastSeenAt": "2026-11-19T11:53:29.945Z",
       "status": "online",
       "failures": 0
     },
@@ -5304,7 +5577,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-15T12:07:53Z",
-      "lastSeenAt": "2026-11-18T11:56:06.875Z",
+      "lastSeenAt": "2026-11-19T11:53:30.006Z",
       "status": "online",
       "failures": 0
     },
@@ -5325,7 +5598,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:10:13Z",
-      "lastSeenAt": "2026-11-18T11:56:06.335Z",
+      "lastSeenAt": "2026-11-19T11:53:29.594Z",
       "status": "online",
       "failures": 0
     },
@@ -5348,8 +5621,8 @@
       "firstSeenAt": "2026-11-14T08:53:26Z",
       "lastSeenAt": "2026-11-15T11:12:07.851Z",
       "status": "online",
-      "failures": 5,
-      "lastCheckedAt": "2026-11-18T11:56:22.228Z"
+      "failures": 6,
+      "lastCheckedAt": "2026-11-19T11:53:45.414Z"
     },
     {
       "id": "host:axiomstory.com",
@@ -5368,7 +5641,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T23:59:16Z",
-      "lastSeenAt": "2026-11-18T11:56:06.446Z",
+      "lastSeenAt": "2026-11-19T11:53:29.875Z",
       "status": "online",
       "failures": 0
     },
@@ -5389,7 +5662,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T03:32:05Z",
-      "lastSeenAt": "2026-11-18T11:56:06.923Z",
+      "lastSeenAt": "2026-11-19T11:53:30.140Z",
       "status": "online",
       "failures": 0
     },
@@ -5410,7 +5683,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T06:41:02Z",
-      "lastSeenAt": "2026-11-18T11:56:06.717Z",
+      "lastSeenAt": "2026-11-19T11:53:29.891Z",
       "status": "online",
       "failures": 0
     },
@@ -5431,7 +5704,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:06.568Z",
+      "lastSeenAt": "2026-11-19T11:53:30.044Z",
       "status": "online",
       "failures": 0
     },
@@ -5452,7 +5725,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:07.032Z",
+      "lastSeenAt": "2026-11-19T11:53:30.442Z",
       "status": "online",
       "failures": 0
     },
@@ -5473,7 +5746,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:07.667Z",
+      "lastSeenAt": "2026-11-19T11:53:30.745Z",
       "status": "online",
       "failures": 0
     },
@@ -5494,7 +5767,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T07:17:12Z",
-      "lastSeenAt": "2026-11-18T11:56:07.227Z",
+      "lastSeenAt": "2026-11-19T11:53:30.844Z",
       "status": "online",
       "failures": 0
     },
@@ -5515,7 +5788,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-11T17:45:44Z",
-      "lastSeenAt": "2026-11-18T11:56:08.948Z",
+      "lastSeenAt": "2026-11-19T11:53:30.599Z",
       "status": "online",
       "failures": 0
     },
@@ -5536,7 +5809,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-18T11:56:08.779Z",
+      "lastSeenAt": "2026-11-19T11:53:31.794Z",
       "status": "online",
       "failures": 0
     },
@@ -5557,7 +5830,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-18T11:56:07.627Z",
+      "lastSeenAt": "2026-11-19T11:53:30.788Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:randman444.github.io",
+      "url": "https://randman444.github.io/meta-rl-draw/web",
+      "domain": "randman444.github.io",
+      "title": "Break a robot arm and watch a meta-RL agent keep writing",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "ai-writing",
+      "tags": [],
+      "icon": "assets/icons/randman444.github.io.svg",
+      "score": 57,
+      "weight": 3.6020599913279625,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T15:39:11Z",
+      "lastSeenAt": "2026-11-19T11:53:30.645Z",
       "status": "online",
       "failures": 0
     },
@@ -5578,7 +5872,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T15:00:26Z",
-      "lastSeenAt": "2026-11-18T11:56:07.828Z",
+      "lastSeenAt": "2026-11-19T11:53:31.167Z",
       "status": "online",
       "failures": 0
     },
@@ -5599,7 +5893,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T03:22:22Z",
-      "lastSeenAt": "2026-11-18T11:56:07.390Z",
+      "lastSeenAt": "2026-11-19T11:53:30.779Z",
       "status": "online",
       "failures": 0
     },
@@ -5620,7 +5914,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T22:47:41Z",
-      "lastSeenAt": "2026-11-18T11:56:07.636Z",
+      "lastSeenAt": "2026-11-19T11:53:31.011Z",
       "status": "online",
       "failures": 0
     },
@@ -5641,7 +5935,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T14:49:05Z",
-      "lastSeenAt": "2026-11-18T11:56:07.526Z",
+      "lastSeenAt": "2026-11-19T11:53:30.973Z",
       "status": "online",
       "failures": 0
     },
@@ -5662,7 +5956,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T00:18:06Z",
-      "lastSeenAt": "2026-11-18T11:56:08.150Z",
+      "lastSeenAt": "2026-11-19T11:53:31.286Z",
       "status": "online",
       "failures": 0
     },
@@ -5683,7 +5977,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T21:34:32Z",
-      "lastSeenAt": "2026-11-18T11:56:07.976Z",
+      "lastSeenAt": "2026-11-19T11:53:31.313Z",
       "status": "online",
       "failures": 0
     },
@@ -5704,7 +5998,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T16:03:25Z",
-      "lastSeenAt": "2026-11-18T11:56:08.239Z",
+      "lastSeenAt": "2026-11-19T11:53:31.633Z",
       "status": "online",
       "failures": 0
     },
@@ -5725,7 +6019,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T11:41:43.365Z",
-      "lastSeenAt": "2026-11-18T11:56:09.243Z",
+      "lastSeenAt": "2026-11-19T11:53:32.064Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:assess.poh.org",
+      "url": "https://assess.poh.org/",
+      "domain": "assess.poh.org",
+      "title": "Can an AI Agent Bypass Your Website Security?",
+      "description": "As part of our red-teaming efforts, we recently configured GPT-6 Astra to test how easily an AI agent can bypa…",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/assess.poh.org.png",
+      "score": 57,
+      "weight": 4.9084850188786495,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T16:40:57Z",
+      "lastSeenAt": "2026-11-19T11:53:31.190Z",
       "status": "online",
       "failures": 0
     },
@@ -5746,7 +6061,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T06:31:06Z",
-      "lastSeenAt": "2026-11-18T11:56:07.961Z",
+      "lastSeenAt": "2026-11-19T11:53:31.402Z",
       "status": "online",
       "failures": 0
     },
@@ -5767,7 +6082,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-18T11:56:08.102Z",
+      "lastSeenAt": "2026-11-19T11:53:31.413Z",
       "status": "online",
       "failures": 0
     },
@@ -5788,7 +6103,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:08.084Z",
+      "lastSeenAt": "2026-11-19T11:53:31.426Z",
       "status": "online",
       "failures": 0
     },
@@ -5809,7 +6124,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T15:43:31Z",
-      "lastSeenAt": "2026-11-18T11:56:08.168Z",
+      "lastSeenAt": "2026-11-19T11:53:31.506Z",
       "status": "online",
       "failures": 0
     },
@@ -5830,7 +6145,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T13:31:12Z",
-      "lastSeenAt": "2026-11-18T11:56:08.681Z",
+      "lastSeenAt": "2026-11-19T11:53:31.881Z",
       "status": "online",
       "failures": 0
     },
@@ -5842,7 +6157,7 @@
       "description": "Clarifai 在 models.dev 收录 12 个模型，可通过 API 接入。",
       "category": "llm-provider",
       "tags": [],
-      "icon": "",
+      "icon": "assets/icons/docs.clarifai.com.svg",
       "score": 57,
       "weight": 4.227886704613674,
       "source": [
@@ -5851,10 +6166,10 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-14T10:38:48.636Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
-      "failures": 5,
-      "lastCheckedAt": "2026-11-18T11:56:08.181Z"
+      "failures": 6,
+      "lastCheckedAt": "2026-11-19T11:53:31.550Z"
     },
     {
       "id": "host:docs.cline.bot",
@@ -5873,7 +6188,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:08.380Z",
+      "lastSeenAt": "2026-11-19T11:53:31.685Z",
       "status": "online",
       "failures": 0
     },
@@ -5894,7 +6209,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-10T20:39:46Z",
-      "lastSeenAt": "2026-11-18T11:56:08.615Z",
+      "lastSeenAt": "2026-11-19T11:53:32.160Z",
       "status": "online",
       "failures": 0
     },
@@ -5915,7 +6230,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:17:42Z",
-      "lastSeenAt": "2026-11-18T11:56:08.554Z",
+      "lastSeenAt": "2026-11-19T11:53:32.177Z",
       "status": "online",
       "failures": 0
     },
@@ -5936,7 +6251,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T13:18:41Z",
-      "lastSeenAt": "2026-11-18T11:56:08.641Z",
+      "lastSeenAt": "2026-11-19T11:53:31.886Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:cloudish.ai",
+      "url": "https://www.cloudish.ai/",
+      "domain": "cloudish.ai",
+      "title": "Cloudish – Cloud for agents to deploy containers themselves",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/cloudish.ai.png",
+      "score": 57,
+      "weight": 4.3979400086720375,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T16:55:55Z",
+      "lastSeenAt": "2026-11-19T11:53:31.900Z",
       "status": "online",
       "failures": 0
     },
@@ -5957,7 +6293,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T15:51:06Z",
-      "lastSeenAt": "2026-11-18T11:56:09.002Z",
+      "lastSeenAt": "2026-11-19T11:53:32.231Z",
       "status": "online",
       "failures": 0
     },
@@ -5978,7 +6314,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T16:56:39Z",
-      "lastSeenAt": "2026-11-18T11:56:09.239Z",
+      "lastSeenAt": "2026-11-19T11:53:32.482Z",
       "status": "online",
       "failures": 0
     },
@@ -5999,7 +6335,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T02:11:01Z",
-      "lastSeenAt": "2026-11-18T11:56:08.850Z",
+      "lastSeenAt": "2026-11-19T11:53:32.177Z",
       "status": "online",
       "failures": 0
     },
@@ -6020,7 +6356,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-11T18:53:05Z",
-      "lastSeenAt": "2026-11-18T11:56:08.794Z",
+      "lastSeenAt": "2026-11-19T11:53:32.211Z",
       "status": "online",
       "failures": 0
     },
@@ -6039,9 +6375,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T08:58:46Z",
-      "lastSeenAt": "2026-11-18T11:56:08.845Z",
+      "lastSeenAt": "2026-11-19T11:53:32.980Z",
       "status": "online",
       "failures": 0
     },
@@ -6062,7 +6398,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T15:21:15Z",
-      "lastSeenAt": "2026-11-18T11:56:09.276Z",
+      "lastSeenAt": "2026-11-19T11:53:32.553Z",
       "status": "online",
       "failures": 0
     },
@@ -6083,7 +6419,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T17:09:48Z",
-      "lastSeenAt": "2026-11-18T11:56:09.398Z",
+      "lastSeenAt": "2026-11-19T11:53:32.885Z",
       "status": "online",
       "failures": 0
     },
@@ -6104,7 +6440,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T18:14:58Z",
-      "lastSeenAt": "2026-11-18T11:56:11.387Z",
+      "lastSeenAt": "2026-11-19T11:53:32.794Z",
       "status": "online",
       "failures": 0
     },
@@ -6123,9 +6459,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T16:36:50Z",
-      "lastSeenAt": "2026-11-18T11:56:09.040Z",
+      "lastSeenAt": "2026-11-19T11:53:32.359Z",
       "status": "online",
       "failures": 0
     },
@@ -6146,7 +6482,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-18T11:56:09.381Z",
+      "lastSeenAt": "2026-11-19T11:53:33.055Z",
       "status": "online",
       "failures": 0
     },
@@ -6167,7 +6503,28 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T08:52:20Z",
-      "lastSeenAt": "2026-11-18T11:56:09.474Z",
+      "lastSeenAt": "2026-11-19T11:53:32.858Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:cyravo-securebuild-a-9jtc.bolt.host",
+      "url": "https://cyravo-securebuild-a-9jtc.bolt.host/",
+      "domain": "cyravo-securebuild-a-9jtc.bolt.host",
+      "title": "Cyravo SecureBuild AI",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "ai-tool",
+      "tags": [],
+      "icon": "assets/icons/cyravo-securebuild-a-9jtc.bolt.host.png",
+      "score": 57,
+      "weight": 3.6020599913279625,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T06:53:11Z",
+      "lastSeenAt": "2026-11-19T11:53:32.907Z",
       "status": "online",
       "failures": 0
     },
@@ -6186,9 +6543,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T18:45:19Z",
-      "lastSeenAt": "2026-11-18T11:56:09.427Z",
+      "lastSeenAt": "2026-11-19T11:53:33.337Z",
       "status": "online",
       "failures": 0
     },
@@ -6209,7 +6566,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-11T18:53:05Z",
-      "lastSeenAt": "2026-11-18T11:56:09.353Z",
+      "lastSeenAt": "2026-11-19T11:53:32.971Z",
       "status": "online",
       "failures": 0
     },
@@ -6230,7 +6587,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T23:15:33Z",
-      "lastSeenAt": "2026-11-18T11:56:09.477Z",
+      "lastSeenAt": "2026-11-19T11:53:33.176Z",
       "status": "online",
       "failures": 0
     },
@@ -6251,7 +6608,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-18T11:56:09.784Z",
+      "lastSeenAt": "2026-11-19T11:53:33.140Z",
       "status": "online",
       "failures": 0
     },
@@ -6272,7 +6629,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T14:16:53Z",
-      "lastSeenAt": "2026-11-18T11:56:09.490Z",
+      "lastSeenAt": "2026-11-19T11:53:33.200Z",
       "status": "online",
       "failures": 0
     },
@@ -6293,7 +6650,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-16T13:18:16Z",
-      "lastSeenAt": "2026-11-18T11:56:09.507Z",
+      "lastSeenAt": "2026-11-19T11:53:33.220Z",
       "status": "online",
       "failures": 0
     },
@@ -6314,7 +6671,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T13:44:15Z",
-      "lastSeenAt": "2026-11-18T11:56:09.584Z",
+      "lastSeenAt": "2026-11-19T11:53:33.303Z",
       "status": "online",
       "failures": 0
     },
@@ -6335,7 +6692,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-13T15:32:03Z",
-      "lastSeenAt": "2026-11-18T11:56:09.550Z",
+      "lastSeenAt": "2026-11-19T11:53:33.342Z",
       "status": "online",
       "failures": 0
     },
@@ -6354,9 +6711,30 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T22:31:25Z",
-      "lastSeenAt": "2026-11-18T11:56:09.690Z",
+      "lastSeenAt": "2026-11-19T11:53:33.418Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "github:taoeffect/dez",
+      "url": "https://github.com/taoeffect/dez",
+      "domain": "github.com",
+      "title": "Dez – plaintext open source AI multimedia studio",
+      "description": "Hi HN! Dez is a free open source way to interact with AIs across providers in a full-featured text editor. I r…",
+      "category": "ai-tool",
+      "tags": [],
+      "icon": "assets/icons/github-taoeffect-dez.png",
+      "score": 57,
+      "weight": 4.556302500767288,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T16:01:28Z",
+      "lastSeenAt": "2026-11-19T11:53:33.621Z",
       "status": "online",
       "failures": 0
     },
@@ -6377,7 +6755,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-18T11:56:10.170Z",
+      "lastSeenAt": "2026-11-19T11:53:34.034Z",
       "status": "online",
       "failures": 0
     },
@@ -6396,7 +6774,7 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T03:16:28Z",
       "lastSeenAt": "2026-11-18T11:56:09.676Z",
       "status": "online",
@@ -6420,6 +6798,27 @@
       "isNew": false,
       "firstSeenAt": "2026-11-11T20:29:34Z",
       "lastSeenAt": "2026-11-18T11:56:09.645Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:disposable.xify.kr",
+      "url": "https://disposable.xify.kr/en",
+      "domain": "disposable.xify.kr",
+      "title": "Disposable – Share small AI-made tools so others can rebuild them",
+      "description": "I made a site for sharing small tools made with AI. With agents, it is now quick to build a tool that fits you…",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/disposable.xify.kr.png",
+      "score": 57,
+      "weight": 3.6020599913279625,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T03:02:34Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -6480,7 +6879,7 @@
         "models.dev"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T11:55:30.377Z",
       "lastSeenAt": "2026-11-18T11:56:10.032Z",
       "status": "online",
@@ -6523,7 +6922,7 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T23:57:07Z",
       "lastSeenAt": "2026-11-18T11:56:09.839Z",
       "status": "online",
@@ -6691,9 +7090,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T21:39:51Z",
-      "lastSeenAt": "2026-11-18T11:56:10.817Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -6799,6 +7198,27 @@
       "isNew": false,
       "firstSeenAt": "2026-11-12T18:45:38Z",
       "lastSeenAt": "2026-11-17T12:04:43.012Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:orpheic.com",
+      "url": "https://orpheic.com/decoders",
+      "domain": "orpheic.com",
+      "title": "FLAC, MP3 and DST decoders, about 2x faster than FFmpeg's (MIT)",
+      "description": "I've published three audio decoders under the MIT licence: FLAC, MP3, and DST (the lossless compression inside…",
+      "category": "ai-media",
+      "tags": [],
+      "icon": "assets/icons/orpheic.com.png",
+      "score": 57,
+      "weight": 3.9542425094393248,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T15:26:18Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -6929,6 +7349,27 @@
       "isNew": false
     },
     {
+      "id": "host:frontier-lab-observatory.lucentcarrot1.chatgpt.site",
+      "url": "https://frontier-lab-observatory.lucentcarrot1.chatgpt.site/",
+      "domain": "frontier-lab-observatory.lucentcarrot1.chatgpt.site",
+      "title": "Frontier Observatory – A visual timeline of what the AI labs ship",
+      "description": "Frontier labs ship a lot. This gives me a handle on things. Also nice view of what the labs are prioritising (…",
+      "category": "llm-provider",
+      "tags": [],
+      "icon": "assets/icons/frontier-lab-observatory.lucentcarrot1.chatgpt.site.svg",
+      "score": 57,
+      "weight": 3.9542425094393248,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T23:45:01Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
       "id": "host:frontierbioml.com",
       "url": "https://www.frontierbioml.com/",
       "domain": "frontierbioml.com",
@@ -6971,6 +7412,27 @@
       "failures": 0
     },
     {
+      "id": "host:sshyeri.github.io",
+      "url": "https://sshyeri.github.io/ng-test-foundry-public",
+      "domain": "sshyeri.github.io",
+      "title": "Generate Angular TestBed specs and Storybook stories locally, no LLM",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "llm-provider",
+      "tags": [],
+      "icon": "assets/icons/sshyeri.github.io.svg",
+      "score": 57,
+      "weight": 4.204119982655925,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T00:35:27Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
       "id": "github:gethome-inc/gethome-hub",
       "url": "https://github.com/gethome-inc/gethome-hub",
       "domain": "github.com",
@@ -7009,6 +7471,27 @@
       "isNew": false,
       "firstSeenAt": "2026-11-16T11:41:43.365Z",
       "lastSeenAt": "2026-11-17T12:04:43.920Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "github:orsenthil/git-hook-model-identification",
+      "url": "https://github.com/orsenthil/git-hook-model-identification",
+      "domain": "github.com",
+      "title": "Git Hook for Model Identifation",
+      "description": "I have started using multiple models (Claude, Codex, Grok via cursor-agent, Z.ai, Deepseek, Hy4 via OpenCode, …",
+      "category": "coding-agent",
+      "tags": [],
+      "icon": "assets/icons/github-orsenthil-git-hook-model-identification.png",
+      "score": 57,
+      "weight": 3.9542425094393248,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T05:18:23Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -7076,6 +7559,48 @@
       "failures": 0
     },
     {
+      "id": "host:app.getgoldcrest.com",
+      "url": "https://app.getgoldcrest.com/",
+      "domain": "app.getgoldcrest.com",
+      "title": "Goldcrest, a household financial model you fill in by talking",
+      "description": "I built Goldcrest in Toronto for my own use in the hope it helps others. I've been discussing a rent vs buy sc…",
+      "category": "ai-tool",
+      "tags": [],
+      "icon": "assets/icons/app.getgoldcrest.com.png",
+      "score": 57,
+      "weight": 3.6020599913279625,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T17:42:50Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:grandtreasureisland.vercel.app",
+      "url": "https://grandtreasureisland.vercel.app/",
+      "domain": "grandtreasureisland.vercel.app",
+      "title": "Grand Treasure Island – GTA-style game on a real island, modeled by AI",
+      "description": "Hi HN! I used teams of Opus 5.5 agents to build a life-size 3D version of Treasure Island, in the middle of th…",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/grandtreasureisland.vercel.app.png",
+      "score": 57,
+      "weight": 3.6020599913279625,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T14:34:56Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
       "id": "host:graphn.ai",
       "url": "https://graphn.ai/docs/getting-started",
       "domain": "graphn.ai",
@@ -7135,6 +7660,27 @@
       "isNew": false,
       "firstSeenAt": "2026-11-13T02:40:39Z",
       "lastSeenAt": "2026-11-17T12:04:43.923Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:chromewebstore.google.com",
+      "url": "https://chromewebstore.google.com/detail/shoppilot/jaookbeghccminjahkpgfgpdjblabhia",
+      "domain": "chromewebstore.google.com",
+      "title": "GTA 6 is out, so I built an agent to do my job in Chrome",
+      "description": "GTA 6 is here! I used to work in marketing automation, which mostly meant clicking around Klaviyo all day. So …",
+      "category": "ai-productivity",
+      "tags": [],
+      "icon": "assets/icons/chromewebstore.google.com.png",
+      "score": 57,
+      "weight": 4.204119982655925,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": false,
+      "firstSeenAt": "2026-11-13T00:51:52Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -7223,6 +7769,27 @@
       "failures": 0
     },
     {
+      "id": "github:davidvgilmore/runespace",
+      "url": "https://github.com/davidvgilmore/RuneSpace",
+      "domain": "github.com",
+      "title": "Herdr mod that makes managing agents like playing Runescape",
+      "description": "I find once I have dozens of agents working across multiple machine's it's hard to keep up. I also miss playin…",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/github-davidvgilmore-runespace.jpg",
+      "score": 57,
+      "weight": 4.3979400086720375,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T19:44:10Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
       "id": "host:fmrl.live",
       "url": "https://fmrl.live/",
       "domain": "fmrl.live",
@@ -7258,9 +7825,9 @@
         "models.dev"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T11:55:30.377Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -7370,6 +7937,27 @@
       "failures": 0
     },
     {
+      "id": "host:walkthisplan.com",
+      "url": "https://walkthisplan.com/",
+      "domain": "walkthisplan.com",
+      "title": "I built a harness that turns floor plans into 360° tours using AI",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "ai-tool",
+      "tags": [],
+      "icon": "assets/icons/walkthisplan.com.png",
+      "score": 57,
+      "weight": 4.690196080028514,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T00:32:32Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
       "id": "host:floxolab.com",
       "url": "https://floxolab.com/ai-crawler-checker",
       "domain": "floxolab.com",
@@ -7468,9 +8056,9 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T09:39:09Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -7573,7 +8161,7 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T20:34:54Z",
       "lastSeenAt": "2026-11-18T11:55:30.377Z",
       "status": "online",
@@ -7617,7 +8205,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-16T11:42:28.194Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -7659,7 +8247,7 @@
       "seeded": false,
       "isNew": false,
       "firstSeenAt": "2026-11-17T12:04:10.626Z",
-      "lastSeenAt": "2026-11-17T12:04:10.626Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -7763,7 +8351,7 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-17T22:35:48Z",
       "lastSeenAt": "2026-11-18T11:55:30.377Z",
       "status": "online",
@@ -7787,6 +8375,27 @@
       "isNew": false,
       "firstSeenAt": "2026-11-13T11:13:41.159Z",
       "lastSeenAt": "2026-11-16T11:42:28.727Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:intrusive.ai",
+      "url": "https://intrusive.ai/",
+      "domain": "intrusive.ai",
+      "title": "Intrusive.ai – open-source AI attack simulation",
+      "description": "I created the INTRUSIVE.AI platform to give agent builders the ability to evaluate their agents against OWASP'…",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/intrusive.ai.svg",
+      "score": 57,
+      "weight": 4.204119982655925,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T19:29:25Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -7910,7 +8519,7 @@
         "models.dev"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T11:55:30.377Z",
       "lastSeenAt": "2026-11-18T11:55:30.377Z",
       "status": "online",
@@ -7955,6 +8564,27 @@
       "isNew": false,
       "firstSeenAt": "2026-11-17T12:04:10.626Z",
       "lastSeenAt": "2026-11-17T12:04:10.626Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
+      "id": "host:looted.github.io",
+      "url": "https://looted.github.io/kibi",
+      "domain": "looted.github.io",
+      "title": "Kibi – requirements framework for AI coding agents",
+      "description": "Hacker News 社区分享的 AI 项目。",
+      "category": "agent-framework",
+      "tags": [],
+      "icon": "assets/icons/looted.github.io.svg",
+      "score": 57,
+      "weight": 3.6020599913279625,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-19T08:31:25Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
       "status": "online",
       "failures": 0
     },
@@ -8022,6 +8652,27 @@
       "failures": 0
     },
     {
+      "id": "host:klistra.ai",
+      "url": "https://klistra.ai/",
+      "domain": "klistra.ai",
+      "title": "Klistra – A complete studio for spec-driven AI motion design and video",
+      "description": "As a solo-dev with a lot of projects going on, I found myself needing to make short promos or explainer videos…",
+      "category": "ai-media",
+      "tags": [],
+      "icon": "assets/icons/klistra.ai.png",
+      "score": 57,
+      "weight": 3.9542425094393248,
+      "source": [
+        "hn"
+      ],
+      "seeded": false,
+      "isNew": true,
+      "firstSeenAt": "2026-11-18T16:58:53Z",
+      "lastSeenAt": "2026-11-19T11:52:48.649Z",
+      "status": "online",
+      "failures": 0
+    },
+    {
       "id": "host:comepass.xyz",
       "url": "https://comepass.xyz/",
       "domain": "comepass.xyz",
@@ -8036,7 +8687,7 @@
         "hn"
       ],
       "seeded": false,
-      "isNew": true,
+      "isNew": false,
       "firstSeenAt": "2026-11-18T11:24:17Z",
       "lastSeenAt": "2026-11-18T11:55:30.377Z",
       "status": "online",
@@ -8207,659 +8858,6 @@
       "isNew": false,
       "firstSeenAt": "2026-11-15T20:27:24Z",
       "lastSeenAt": "2026-11-16T11:41:43.365Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:llmcost.pitropatro.com",
-      "url": "https://llmcost.pitropatro.com/",
-      "domain": "llmcost.pitropatro.com",
-      "title": "LLM cost calculator for agent runs (45 models, prompt caching included)",
-      "description": "Hacker News 社区分享的 AI 项目。",
-      "category": "agent-framework",
-      "tags": [],
-      "icon": "assets/icons/llmcost.pitropatro.com.svg",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": true,
-      "firstSeenAt": "2026-11-17T17:09:55Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "github:recursive-logic-core/llm-crisis-triage-audit",
-      "url": "https://github.com/Recursive-Logic-Core/llm-crisis-triage-audit",
-      "domain": "github.com",
-      "title": "LLM Crisis Triage Audit – Deterministic state-space governance",
-      "description": "Hacker News 社区分享的 AI 项目。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/github-recursive-logic-core-llm-crisis-triage-audit.png",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-11T13:58:20Z",
-      "lastSeenAt": "2026-11-15T11:12:53.084Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "github:garritfra/llmtee",
-      "url": "https://github.com/garritfra/llmtee",
-      "domain": "github.com",
-      "title": "Llmtee – Lightweight LLM Proxy",
-      "description": "Hi HN, I built llmtee because I wanted a simple mechanism to log llm calls, and existing options require runni…",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/github-garritfra-llmtee.jpg",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-11T10:55:46Z",
-      "lastSeenAt": "2026-11-15T11:12:53.003Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:wiyomi.com",
-      "url": "https://www.wiyomi.com/",
-      "domain": "wiyomi.com",
-      "title": "Local AI Video Agent",
-      "description": "Hi HN, Hakim is here. I am trying to make video agent can be run fully local on the device instead of cloud. T…",
-      "category": "ai-media",
-      "tags": [],
-      "icon": "assets/icons/wiyomi.com.svg",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-15T17:55:38Z",
-      "lastSeenAt": "2026-11-16T11:41:43.365Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:lumber-jack.koenvangilst.nl",
-      "url": "https://lumber-jack.koenvangilst.nl/",
-      "domain": "lumber-jack.koenvangilst.nl",
-      "title": "Lumberjack – a browser game about an engineer who lost his job to AI",
-      "description": "Jack lost his job as a software engineer to AI. To provide for his young family he takes a job as a lumberjack…",
-      "category": "ai-tool",
-      "tags": [],
-      "icon": "assets/icons/lumber-jack.koenvangilst.nl.png",
-      "score": 57,
-      "weight": 3.9542425094393248,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": true,
-      "firstSeenAt": "2026-11-17T18:10:56Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:docs.lyceum.technology",
-      "url": "https://docs.lyceum.technology/docs/inference/serverless",
-      "domain": "docs.lyceum.technology",
-      "title": "Lyceum",
-      "description": "Lyceum 在 models.dev 收录 8 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/docs.lyceum.technology.png",
-      "score": 57,
-      "weight": 3.9084850188786495,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": true,
-      "firstSeenAt": "2026-11-18T11:55:30.377Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "github:yakkomajuri/lynx",
-      "url": "https://github.com/yakkomajuri/lynx",
-      "domain": "github.com",
-      "title": "Lynx – open-source fully-customizable AI workspace",
-      "description": "I was finding that managing multiple agent threads with walls of text was getting tiring and inefficient for m…",
-      "category": "agent-framework",
-      "tags": [],
-      "icon": "assets/icons/github-yakkomajuri-lynx.png",
-      "score": 57,
-      "weight": 3.9542425094393248,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-12T01:26:11Z",
-      "lastSeenAt": "2026-11-15T11:12:53.165Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "github:chetanty/machine_internet",
-      "url": "https://github.com/chetanty/machine_internet",
-      "domain": "github.com",
-      "title": "Machine Internet: turn a site's hidden JSON API into MCP tools",
-      "description": "Hello HN, I'm Chetan, a CS student at the University of Alberta. There are many sites that have no official AP…",
-      "category": "agent-framework",
-      "tags": [],
-      "icon": "assets/icons/github-chetanty-machine-internet.png",
-      "score": 57,
-      "weight": 4.204119982655925,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": true,
-      "firstSeenAt": "2026-11-17T17:09:56Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:docs.meganova.ai",
-      "url": "https://docs.meganova.ai/",
-      "domain": "docs.meganova.ai",
-      "title": "Meganova",
-      "description": "Meganova 在 models.dev 收录 19 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/docs.meganova.ai.avif",
-      "score": 57,
-      "weight": 4.6020599913279625,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-16T11:41:43.365Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:melious.ai",
-      "url": "https://melious.ai/docs/reference/models",
-      "domain": "melious.ai",
-      "title": "Melious",
-      "description": "Melious 在 models.dev 收录 8 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/melious.ai.png",
-      "score": 57,
-      "weight": 3.9084850188786495,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:memeo.app",
-      "url": "https://memeo.app/",
-      "domain": "memeo.app",
-      "title": "Memeo – Turn static photos into lip-synced AI meme videos in seconds",
-      "description": "Hacker News 社区分享的 AI 项目。",
-      "category": "ai-tool",
-      "tags": [],
-      "icon": "assets/icons/memeo.app.png",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-16T03:18:30Z",
-      "lastSeenAt": "2026-11-16T11:41:43.365Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "github:memrohq/memro",
-      "url": "https://github.com/memrohq/memro",
-      "domain": "github.com",
-      "title": "Memro – Persistent Memory for Claude Code, Cursor and Codex",
-      "description": "Memro is go bases persistent memory system that lets ai agents share context acssion session using mcp, built …",
-      "category": "coding-agent",
-      "tags": [],
-      "icon": "assets/icons/github-memrohq-memro.png",
-      "score": 57,
-      "weight": 4.3979400086720375,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-14T00:20:15Z",
-      "lastSeenAt": "2026-11-15T11:12:53.503Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:mergemax.dev",
-      "url": "https://mergemax.dev/",
-      "domain": "mergemax.dev",
-      "title": "MergeMax, a monthly ranking of public merged PRs on GitHub",
-      "description": "Hi HN, the main idea around MergeMax is that the user can look themselves up and compare themselves against al…",
-      "category": "ai-tool",
-      "tags": [],
-      "icon": "assets/icons/mergemax.dev.png",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-12T13:57:52Z",
-      "lastSeenAt": "2026-11-16T11:41:43.365Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:dev.meta.ai",
-      "url": "https://dev.meta.ai/docs",
-      "domain": "dev.meta.ai",
-      "title": "Meta",
-      "description": "Meta 在 models.dev 收录 7 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/dev.meta.ai.ico",
-      "score": 57,
-      "weight": 3.806179973983887,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-16T11:41:43.365Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:meta-hackathon.com",
-      "url": "https://meta-hackathon.com/",
-      "domain": "meta-hackathon.com",
-      "title": "MetaArena – Compare & Rank 5,353 Meta Global AI Hackathon Projects",
-      "description": "Hey HN! Recently Meta wrapped up their Global Developer Hackathon ( https://dev.meta.ai/events/global-hackatho…",
-      "category": "ai-tool",
-      "tags": [],
-      "icon": "assets/icons/meta-hackathon.com.png",
-      "score": 57,
-      "weight": 3.9542425094393248,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-12T08:36:48Z",
-      "lastSeenAt": "2026-11-15T11:12:54.177Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "github:osigurdson/mib",
-      "url": "https://github.com/osigurdson/mib",
-      "domain": "github.com",
-      "title": "mib – A 300KiB Vim-Style Markdown Scratchpad for Linux / Wayland",
-      "description": "I tend to make a lot of scratch notes as a way to help me think. These usually don't last very long and what d…",
-      "category": "ai-productivity",
-      "tags": [],
-      "icon": "assets/icons/github-osigurdson-mib.png",
-      "score": 57,
-      "weight": 4.3979400086720375,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-11T18:33:24Z",
-      "lastSeenAt": "2026-11-15T11:12:53.723Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:mimzie.com",
-      "url": "https://mimzie.com/",
-      "domain": "mimzie.com",
-      "title": "Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
-      "description": "hi HN! I built Mimzie, an agent neutral AI workspace inspired by the Claude Suite (Docs, Sheets, Slides) and C…",
-      "category": "ai-writing",
-      "tags": [],
-      "icon": "assets/icons/mimzie.com.png",
-      "score": 57,
-      "weight": 4.690196080028514,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-11T00:29:45Z",
-      "lastSeenAt": "2026-11-15T11:12:53.716Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:platform.minimaxi.com",
-      "url": "https://platform.minimaxi.com/docs/token-plan/intro",
-      "domain": "platform.minimaxi.com",
-      "title": "MiniMax Token Plan (minimax.cn)",
-      "description": "MiniMax Token Plan (minimax.cn) 在 models.dev 收录 9 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/platform.minimaxi.com.png",
-      "score": 57,
-      "weight": 4,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-16T11:41:43.365Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:platform.minimax.io",
-      "url": "https://platform.minimax.io/docs/token-plan/intro",
-      "domain": "platform.minimax.io",
-      "title": "MiniMax Token Plan (minimax.io)",
-      "description": "MiniMax Token Plan (minimax.io) 在 models.dev 收录 9 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/platform.minimax.io.png",
-      "score": 57,
-      "weight": 4,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-14T10:38:48.636Z",
-      "lastSeenAt": "2026-11-17T12:04:10.626Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:mirrors.dev",
-      "url": "https://mirrors.dev/",
-      "domain": "mirrors.dev",
-      "title": "Mirrors – a context compiler for your production agents",
-      "description": "Hacker News 社区分享的 AI 项目。",
-      "category": "agent-framework",
-      "tags": [],
-      "icon": "assets/icons/mirrors.dev.png",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-16T16:21:28Z",
-      "lastSeenAt": "2026-11-17T12:04:10.626Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:moark.com",
-      "url": "https://moark.com/docs/openapi/v1",
-      "domain": "moark.com",
-      "title": "Moark",
-      "description": "Moark 在 models.dev 收录 10 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/moark.com.png",
-      "score": 57,
-      "weight": 4.08278537031645,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-15T11:12:55.510Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:modal.com",
-      "url": "https://modal.com/docs/guide/endpoints",
-      "domain": "modal.com",
-      "title": "Modal",
-      "description": "Modal 在 models.dev 收录 8 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/modal.com.svg",
-      "score": 57,
-      "weight": 3.9084850188786495,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-12T12:18:46.000Z",
-      "lastSeenAt": "2026-11-15T11:12:54.480Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:modeloracle.com",
-      "url": "https://modeloracle.com/setup",
-      "domain": "modeloracle.com",
-      "title": "Model Oracle AI",
-      "description": "Model Oracle AI 在 models.dev 收录 15 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "",
-      "score": 57,
-      "weight": 4.40823996531185,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-16T11:41:43.365Z",
-      "lastSeenAt": "2026-11-16T11:41:43.365Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "github:shubhamverma8991/claude-model-share",
-      "url": "https://github.com/shubhamverma8991/claude-model-share",
-      "domain": "github.com",
-      "title": "Model-share – see which Claude models used your weekly limit",
-      "description": "Hacker News 社区分享的 AI 项目。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/github-shubhamverma8991-claude-model-share.png",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-14T18:07:39Z",
-      "lastSeenAt": "2026-11-16T11:41:43.365Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:modelrefs.com",
-      "url": "https://modelrefs.com/",
-      "domain": "modelrefs.com",
-      "title": "ModelRefs – AI model data where every number must cite a source",
-      "description": "Hacker News 社区分享的 AI 项目。",
-      "category": "ai-tool",
-      "tags": [],
-      "icon": "assets/icons/modelrefs.com.png",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": true,
-      "firstSeenAt": "2026-11-17T17:39:02Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:modelscope.cn",
-      "url": "https://modelscope.cn/",
-      "domain": "modelscope.cn",
-      "title": "ModelScope",
-      "description": "收录于 awesome-free-llm-apis 清单。",
-      "category": "learning",
-      "tags": [],
-      "icon": "assets/icons/modelscope.cn.ico",
-      "score": 57,
-      "weight": 3.806179973983887,
-      "source": [
-        "awesome-free-llm-apis",
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-16T11:41:43.365Z",
-      "lastSeenAt": "2026-11-18T11:55:30.377Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:platform.moonshot.cn",
-      "url": "https://platform.moonshot.cn/docs/api/chat",
-      "domain": "platform.moonshot.cn",
-      "title": "Moonshot AI (China)",
-      "description": "Moonshot AI (China) 在 models.dev 收录 6 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/platform.moonshot.cn.png",
-      "score": 57,
-      "weight": 3.690196080028514,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-12T13:37:08.209Z",
-      "lastSeenAt": "2026-11-17T12:04:10.626Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:mopup.online",
-      "url": "https://mopup.online/developers",
-      "domain": "mopup.online",
-      "title": "Mopup – clean up after builds and coding agents on macOS",
-      "description": "Hacker News 社区分享的 AI 项目。",
-      "category": "agent-framework",
-      "tags": [],
-      "icon": "assets/icons/mopup.online.png",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-14T15:03:18Z",
-      "lastSeenAt": "2026-11-15T11:12:54.545Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:docs.morphllm.com",
-      "url": "https://docs.morphllm.com/api-reference/introduction",
-      "domain": "docs.morphllm.com",
-      "title": "Morph",
-      "description": "Morph 在 models.dev 收录 12 个模型，可通过 API 接入。",
-      "category": "llm-provider",
-      "tags": [],
-      "icon": "assets/icons/docs.morphllm.com.ico",
-      "score": 57,
-      "weight": 4.227886704613674,
-      "source": [
-        "models.dev"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-13T11:13:41.159Z",
-      "lastSeenAt": "2026-11-13T11:13:41.159Z",
-      "status": "online",
-      "failures": 3,
-      "lastCheckedAt": "2026-11-15T11:12:54.950Z"
-    },
-    {
-      "id": "github:shadowkingyt444/motion-debugger",
-      "url": "https://github.com/ShadowKingYT444/motion-debugger",
-      "domain": "github.com",
-      "title": "Motion Debugger – A browser critic for AI slop",
-      "description": "Built a tool to unslop UI and add cool motion. It's an open-source workflow for coding agents, using Chromium …",
-      "category": "agent-framework",
-      "tags": [],
-      "icon": "assets/icons/github-shadowkingyt444-motion-debugger.jpg",
-      "score": 57,
-      "weight": 3.6020599913279625,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-12T01:53:52Z",
-      "lastSeenAt": "2026-11-15T11:12:55.250Z",
-      "status": "online",
-      "failures": 0
-    },
-    {
-      "id": "host:sporadic.app",
-      "url": "https://www.sporadic.app/",
-      "domain": "sporadic.app",
-      "title": "Move more with short random exercise challenges",
-      "description": "Background: I've been working on Sporadic for years, while software engineering has been my full-time job. Tha…",
-      "category": "ai-tool",
-      "tags": [],
-      "icon": "assets/icons/sporadic.app.png",
-      "score": 57,
-      "weight": 3.9542425094393248,
-      "source": [
-        "hn"
-      ],
-      "seeded": false,
-      "isNew": false,
-      "firstSeenAt": "2026-11-11T21:31:25Z",
-      "lastSeenAt": "2026-11-15T11:12:54.715Z",
       "status": "online",
       "failures": 0
     }
