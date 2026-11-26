@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#090B10"/>
+  <!-- Top chamfered rail -->
+  <path d="M16 29.5V16.5L22.5 10H41.5L48 16.5V23.5H39.5V18.5H24.5V29.5H16Z" fill="#F8FAFC"/>
+  <!-- Bottom chamfered rail -->
+  <path d="M16 34.5H24.5V45.5H39.5V40.5H48V47.5L41.5 54H22.5L16 47.5V34.5Z" fill="#F8FAFC"/>
+  <!-- Emerald clearing checkmark -->
+  <path d="M29.5 33.5L36.5 40.5L51.5 25.5" stroke="#10B981" stroke-width="6.2" stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>
